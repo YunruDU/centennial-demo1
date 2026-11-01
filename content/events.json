@@ -1,0 +1,431 @@
+[
+  {
+    "id": "e01",
+    "title": {
+      "zh": "（示意）院慶起跑記者會・主視覺公布",
+      "en": "(Demo) Launch press event & visual identity"
+    },
+    "category": "celebration",
+    "date_start": "2027-02-01",
+    "date_end": "2027-03-31",
+    "date_label": {
+      "zh": "2027 Q1",
+      "en": "Q1 2027"
+    },
+    "location": {
+      "zh": "（示意）南港院區",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "公布院慶識別系統與官方網站，啟動百年倒數。",
+      "en": "Unveiling the anniversary identity and website."
+    },
+    "body": {
+      "zh": "<p>公布院慶識別系統與官方網站，啟動百年倒數。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>Unveiling the anniversary identity and website.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/campus-aerial.jpg",
+      "alt": {
+        "zh": "院慶起跑記者會・主視覺公布相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1600,
+      "height": 578
+    },
+    "poster": {
+      "src": "assets/img/posters/e01.svg",
+      "alt": {
+        "zh": "院慶起跑記者會・主視覺公布示意海報",
+        "en": "Poster: Launch press event & visual identity"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  },
+  {
+    "id": "e02",
+    "title": {
+      "zh": "（示意）百大貢獻分批發表",
+      "en": "(Demo) 100 Contributions announced"
+    },
+    "category": "seminar",
+    "date_start": "2027-04-01",
+    "date_end": "2027-06-30",
+    "date_label": {
+      "zh": "2027 Q2",
+      "en": "Q2 2027"
+    },
+    "location": {
+      "zh": "（示意）學術活動中心",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "經各所中心提名與審議，分批公布代表性研究貢獻。",
+      "en": "Representative research contributions announced in stages."
+    },
+    "body": {
+      "zh": "<p>經各所中心提名與審議，分批公布代表性研究貢獻。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>Representative research contributions announced in stages.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/lab.jpg",
+      "alt": {
+        "zh": "百大貢獻分批發表相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1200,
+      "height": 800
+    },
+    "poster": {
+      "src": "assets/img/posters/e02.svg",
+      "alt": {
+        "zh": "百大貢獻分批發表示意海報",
+        "en": "Poster: 100 Contributions announced"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": [
+      {
+        "label": {
+          "zh": "相關網站（示意）",
+          "en": "Related site (demo)"
+        },
+        "url": "https://www.sinica.edu.tw/"
+      }
+    ]
+  },
+  {
+    "id": "e03",
+    "title": {
+      "zh": "（示意）百年特展開展・形象影片首映",
+      "en": "(Demo) Centennial exhibition & film premiere"
+    },
+    "category": "exhibition",
+    "date_start": "2027-07-01",
+    "date_end": "2027-12-31",
+    "date_label": {
+      "zh": "2027 Q3",
+      "en": "Q3 2027"
+    },
+    "location": {
+      "zh": "（示意）史語所歷史文物陳列館",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "院史、院區與研究成果三大展區，於院區與合作館所同步開展。",
+      "en": "Exhibitions on history, campus and research open on campus and at partner venues."
+    },
+    "body": {
+      "zh": "<p>院史、院區與研究成果三大展區，於院區與合作館所同步開展。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>Exhibitions on history, campus and research open on campus and at partner venues.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/history/ch1_02_hq_building_nanjing1935.jpg",
+      "alt": {
+        "zh": "百年特展開展・形象影片首映相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 400,
+      "height": 399
+    },
+    "poster": {
+      "src": "assets/img/posters/e03.svg",
+      "alt": {
+        "zh": "百年特展開展・形象影片首映示意海報",
+        "en": "Poster: Centennial exhibition & film premiere"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  },
+  {
+    "id": "e06",
+    "title": {
+      "zh": "（示意）院史口述歷史講座",
+      "en": "(Demo) Oral history lecture"
+    },
+    "category": "seminar",
+    "date_start": "2027-09-15",
+    "date_end": "2027-09-15",
+    "date_label": {
+      "zh": "2027/9/15",
+      "en": "15 Sep 2027"
+    },
+    "location": {
+      "zh": "（示意）學術活動中心",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "邀請資深同仁與院友，談院區早年的研究與生活。",
+      "en": "Senior staff and alumni share stories of the early years."
+    },
+    "body": {
+      "zh": "<p>邀請資深同仁與院友，談院區早年的研究與生活。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>Senior staff and alumni share stories of the early years.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/history/ch4_02_academicians_1957.jpg",
+      "alt": {
+        "zh": "院史口述歷史講座相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 400,
+      "height": 305
+    },
+    "poster": {
+      "src": "assets/img/posters/e06.svg",
+      "alt": {
+        "zh": "院史口述歷史講座示意海報",
+        "en": "Poster: Oral history lecture"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": [
+      {
+        "label": {
+          "zh": "相關網站（示意）",
+          "en": "Related site (demo)"
+        },
+        "url": "https://www.sinica.edu.tw/"
+      }
+    ]
+  },
+  {
+    "id": "e04",
+    "title": {
+      "zh": "（示意）國際學術論壇（第一場）",
+      "en": "(Demo) International forum (part 1)"
+    },
+    "category": "seminar",
+    "date_start": "2027-10-01",
+    "date_end": "2027-12-31",
+    "date_label": {
+      "zh": "2027 Q4",
+      "en": "Q4 2027"
+    },
+    "location": {
+      "zh": "（示意）人文社會科學館",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "以下一個百年的基礎科學為題，邀請國際研究機構與會。",
+      "en": "On the next century of basic science, with international partners."
+    },
+    "body": {
+      "zh": "<p>以下一個百年的基礎科學為題，邀請國際研究機構與會。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>On the next century of basic science, with international partners.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/lecture-hall.jpg",
+      "alt": {
+        "zh": "國際學術論壇（第一場）相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1200,
+      "height": 800
+    },
+    "poster": {
+      "src": "assets/img/posters/e04.svg",
+      "alt": {
+        "zh": "國際學術論壇（第一場）示意海報",
+        "en": "Poster: International forum (part 1)"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": [
+      {
+        "label": {
+          "zh": "相關網站（示意）",
+          "en": "Related site (demo)"
+        },
+        "url": "https://www.sinica.edu.tw/"
+      }
+    ]
+  },
+  {
+    "id": "e07",
+    "title": {
+      "zh": "（示意）南港院區今昔攝影展",
+      "en": "(Demo) Nangang campus: then and now"
+    },
+    "category": "exhibition",
+    "date_start": "2027-11-01",
+    "date_end": "2028-01-31",
+    "date_label": {
+      "zh": "2027/11–2028/1",
+      "en": "Nov 2027 – Jan 2028"
+    },
+    "location": {
+      "zh": "（示意）院區遊客中心",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "老照片與今日同角度拍攝並列，看院區七十年的變化。",
+      "en": "Archive photos alongside new ones from the same angle."
+    },
+    "body": {
+      "zh": "<p>老照片與今日同角度拍攝並列，看院區七十年的變化。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>Archive photos alongside new ones from the same angle.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/history/ch2_04_campus_view_1961.jpg",
+      "alt": {
+        "zh": "南港院區今昔攝影展相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 400,
+      "height": 364
+    },
+    "poster": {
+      "src": "assets/img/posters/e07.svg",
+      "alt": {
+        "zh": "南港院區今昔攝影展示意海報",
+        "en": "Poster: Nangang campus: then and now"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  },
+  {
+    "id": "e05",
+    "title": {
+      "zh": "（示意）百年院慶大會",
+      "en": "(Demo) Centennial ceremony"
+    },
+    "category": "celebration",
+    "date_start": "2028-06-09",
+    "date_end": "2028-06-09",
+    "date_label": {
+      "zh": "2028/6/9",
+      "en": "9 Jun 2028"
+    },
+    "location": {
+      "zh": "（示意）南港院區",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "院慶大會、貴賓致詞與頒獎，迎接創院一百年。",
+      "en": "The centennial ceremony with speeches and awards."
+    },
+    "body": {
+      "zh": "<p>院慶大會、貴賓致詞與頒獎，迎接創院一百年。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>The centennial ceremony with speeches and awards.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/campus-lawn.jpg",
+      "alt": {
+        "zh": "百年院慶大會相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1200,
+      "height": 800
+    },
+    "poster": {
+      "src": "assets/img/posters/e05.svg",
+      "alt": {
+        "zh": "百年院慶大會示意海報",
+        "en": "Poster: Centennial ceremony"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  },
+  {
+    "id": "e09",
+    "title": {
+      "zh": "（示意）百年音樂會",
+      "en": "(Demo) Centennial concert"
+    },
+    "category": "celebration",
+    "date_start": "2028-06-09",
+    "date_end": "2028-06-09",
+    "date_label": {
+      "zh": "2028/6/9 晚上",
+      "en": "9 Jun 2028, evening"
+    },
+    "location": {
+      "zh": "（示意）學術活動中心大禮堂",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "以音樂向一百年的研究者致敬。",
+      "en": "A concert honoring a century of researchers."
+    },
+    "body": {
+      "zh": "<p>以音樂向一百年的研究者致敬。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>A concert honoring a century of researchers.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/lecture-hall.jpg",
+      "alt": {
+        "zh": "百年音樂會相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1200,
+      "height": 800
+    },
+    "poster": {
+      "src": "assets/img/posters/e09.svg",
+      "alt": {
+        "zh": "百年音樂會示意海報",
+        "en": "Poster: Centennial concert"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  },
+  {
+    "id": "e08",
+    "title": {
+      "zh": "（示意）院區開放百年場",
+      "en": "(Demo) Open House: Centennial edition"
+    },
+    "category": "celebration",
+    "date_start": "2028-06-10",
+    "date_end": "2028-06-11",
+    "date_label": {
+      "zh": "2028/6/10–11",
+      "en": "10–11 Jun 2028"
+    },
+    "location": {
+      "zh": "（示意）南港院區",
+      "en": "(Demo) Academia Sinica, Nangang"
+    },
+    "summary": {
+      "zh": "全院研究所同步開放，數百場科普活動，與市民一起慶生。",
+      "en": "All institutes open their doors with hundreds of activities."
+    },
+    "body": {
+      "zh": "<p>全院研究所同步開放，數百場科普活動，與市民一起慶生。</p><p>（時程與內容為規劃示意，以正式公告為準。）</p>",
+      "en": "<p>All institutes open their doors with hundreds of activities.</p><p>(Tentative.)</p>"
+    },
+    "image": {
+      "src": "assets/img/photos/lab.jpg",
+      "alt": {
+        "zh": "院區開放百年場相關照片（示意）",
+        "en": "Related photo (demo)"
+      },
+      "width": 1200,
+      "height": 800
+    },
+    "poster": {
+      "src": "assets/img/posters/e08.svg",
+      "alt": {
+        "zh": "院區開放百年場示意海報",
+        "en": "Poster: Open House: Centennial edition"
+      },
+      "width": 600,
+      "height": 800
+    },
+    "links": []
+  }
+]

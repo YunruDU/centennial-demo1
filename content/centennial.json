@@ -1,0 +1,260 @@
+{
+  "message": {
+    "id": "president",
+    "name": {
+      "zh": "（示意）院長",
+      "en": "(Demo) President"
+    },
+    "title": {
+      "zh": "院長的話",
+      "en": "Message from the President"
+    },
+    "photo": {
+      "src": "assets/img/placeholder-portrait-light.svg",
+      "alt": {
+        "zh": "百年院慶標誌（示意圖）",
+        "en": "Centennial emblem (placeholder)"
+      },
+      "width": 900,
+      "height": 1200
+    },
+    "summary": {
+      "zh": "（示意）一百年前，一群學者在南京立下「求真」的志向。一百年後，我們想和社會一起回答：下一個百年，臺灣的學術可以為世界帶來什麼？",
+      "en": "(Demo) A hundred years ago, scholars in Nanjing set out to seek truth. What can Taiwan's research offer the world in the next century?"
+    },
+    "body": {
+      "zh": "<p>（示意內文）一百年前，一群學者在南京立下「求真」的志向。他們相信，好的研究能讓社會看得更清楚，也能讓下一代走得更遠。</p><p>這一百年裡，本院經歷遷徙、重建與成長。從南港山腳下的幾間研究室，到今天橫跨數理、生命、人文社會科學的研究聚落，不變的是對知識的好奇與對社會的承諾。</p><p>百年院慶不只是回顧，更是邀請。我們希望和每一位關心學術的朋友一起思考：下一個百年，臺灣的研究可以為世界帶來什麼？歡迎走進院區、參加系列活動，和我們一起寫下新的篇章。</p>",
+      "en": "<p>(Demo text) A hundred years ago, a group of scholars in Nanjing set out to seek truth, believing that good research helps society see more clearly.</p><p>Through relocation, rebuilding and growth, the Academy has become a research community spanning the sciences, life sciences, humanities and social sciences, driven by curiosity and commitment to society.</p><p>The centennial is not only a look back but an invitation: what can Taiwan's research offer the world in the next century? Join us on campus and at our events.</p>"
+    },
+    "salutation": {
+      "zh": "各位朋友：",
+      "en": "Dear friends,"
+    },
+    "sign": {
+      "image": {
+        "src": "assets/img/people/signature-demo.svg",
+        "alt": {
+          "zh": "示意簽名",
+          "en": "Signature (illustrative)"
+        },
+        "width": 320,
+        "height": 110
+      },
+      "title": {
+        "zh": "中央研究院院長（示意）",
+        "en": "President, Academia Sinica (demo)"
+      },
+      "date": {
+        "zh": "2028 年 6 月（示意日期；簽名為示意，非本人筆跡）",
+        "en": "June 2028 (illustrative date; signature is not genuine)"
+      }
+    }
+  },
+  "ebook": {
+    "title": {
+      "zh": "（示意）院史電子書",
+      "en": "(Demo) History e-book"
+    },
+    "cover": {
+      "src": "assets/img/placeholder-portrait.svg",
+      "alt": {
+        "zh": "百年院慶標誌（示意圖）",
+        "en": "Centennial emblem (placeholder)"
+      },
+      "width": 900,
+      "height": 1200
+    },
+    "pdf": "",
+    "summary": {
+      "zh": "（示意）以照片與文件回顧本院百年歷程，提供線上閱讀與 PDF 下載。",
+      "en": "(Demo) A century in photos and documents, to read online or download as PDF."
+    }
+  },
+  "divisions": [
+    {
+      "id": "math",
+      "name": {
+        "zh": "數理科學組",
+        "en": "Mathematics & Physical Sciences"
+      },
+      "icon": {
+        "src": "assets/img/icons/math.svg",
+        "alt": {
+          "zh": "原子圖示",
+          "en": "Atom icon"
+        },
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "zh": "數學、物理、化學、地球科學、資訊與工程等領域。",
+        "en": "Mathematics, physics, chemistry, earth sciences, information and engineering."
+      },
+      "institutes": [
+        {
+          "name": {
+            "zh": "（示意）研究所 1",
+            "en": "(Demo) Institute 1"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        },
+        {
+          "name": {
+            "zh": "（示意）研究所 2",
+            "en": "(Demo) Institute 2"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "name": {
+        "zh": "生命科學組",
+        "en": "Life Sciences"
+      },
+      "icon": {
+        "src": "assets/img/icons/life.svg",
+        "alt": {
+          "zh": "新芽圖示",
+          "en": "Sprout icon"
+        },
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "zh": "分子生物、細胞與個體生物、生物化學、農業與生醫等領域。",
+        "en": "Molecular, cellular and organismic biology, biochemistry, agriculture and biomedicine."
+      },
+      "institutes": [
+        {
+          "name": {
+            "zh": "（示意）研究所 1",
+            "en": "(Demo) Institute 1"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        },
+        {
+          "name": {
+            "zh": "（示意）研究所 2",
+            "en": "(Demo) Institute 2"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        }
+      ]
+    },
+    {
+      "id": "humanities",
+      "name": {
+        "zh": "人文及社會科學組",
+        "en": "Humanities & Social Sciences"
+      },
+      "icon": {
+        "src": "assets/img/icons/humanities.svg",
+        "alt": {
+          "zh": "書本圖示",
+          "en": "Book icon"
+        },
+        "width": 96,
+        "height": 96
+      },
+      "summary": {
+        "zh": "歷史、語言、民族、經濟、社會、政治、法律與文哲等領域。",
+        "en": "History, linguistics, ethnology, economics, sociology, politics, law, literature and philosophy."
+      },
+      "institutes": [
+        {
+          "name": {
+            "zh": "（示意）研究所 1",
+            "en": "(Demo) Institute 1"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        },
+        {
+          "name": {
+            "zh": "（示意）研究所 2",
+            "en": "(Demo) Institute 2"
+          },
+          "summary": {
+            "zh": "示意簡介。",
+            "en": "Demo introduction."
+          },
+          "url": "https://www.sinica.edu.tw/"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "m01",
+      "title": {
+        "zh": "（示意）中央研究院簡介影片",
+        "en": "(Demo) Academia Sinica introduction"
+      },
+      "image": {
+        "src": "assets/img/photos/lecture-hall.jpg",
+        "alt": {
+          "zh": "演講廳",
+          "en": "A lecture hall"
+        },
+        "width": 1200,
+        "height": 800
+      },
+      "url": "https://www.youtube.com/watch?v=QBqknUQoz4s"
+    },
+    {
+      "id": "m02",
+      "title": {
+        "zh": "（示意）研究人員專訪：實驗室的一天",
+        "en": "(Demo) Interview: a day in the lab"
+      },
+      "image": {
+        "src": "assets/img/photos/lab.jpg",
+        "alt": {
+          "zh": "實驗室裡的儀器",
+          "en": "Instruments in a laboratory"
+        },
+        "width": 1200,
+        "height": 800
+      },
+      "url": "#"
+    },
+    {
+      "id": "m03",
+      "title": {
+        "zh": "（示意）院區開放紀實",
+        "en": "(Demo) Open House highlights"
+      },
+      "image": {
+        "src": "assets/img/photos/campus-lawn.jpg",
+        "alt": {
+          "zh": "院區草地與雕塑",
+          "en": "Campus lawn with sculptures"
+        },
+        "width": 1200,
+        "height": 800
+      },
+      "url": "#"
+    }
+  ]
+}

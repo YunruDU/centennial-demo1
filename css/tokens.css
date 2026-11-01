@@ -1,0 +1,52 @@
+/* 設計變數：顏色、字級、間距。主視覺定案後只改這支檔案。（WP0 擁有，改動請寫變更提案） */
+:root {
+  /* 顏色（示意：酒紅＋金，待主視覺定案） */
+  --c-primary: #6b1d24;
+  --c-primary-ink: #ffffff;      /* 放在 primary 上的文字 */
+  --c-primary-soft: #f3e7e5;
+  --c-accent: #8a6420;           /* 金色，在白底上對比 ≥ 4.5:1 */
+  --c-accent-soft: #f6eedc;
+  --c-ink: #1f1f1f;
+  --c-ink-soft: #545454;         /* 在 --c-bg 上對比 ≥ 4.5:1 */
+  --c-bg: #faf8f4;
+  --c-surface: #ffffff;
+  --c-line: #ddd6cc;
+  --c-focus: #1a5fb4;
+  --c-overlay: rgba(20, 16, 14, .72);
+  --c-footer-bg: #1f1f1f;
+  --c-footer-ink: #f1eee8;
+
+  /* 字型 */
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  --font-serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  --font-heading: var(--font-serif);
+
+  /* 字級 */
+  --fs-1: clamp(2rem, 4vw, 3.25rem);
+  --fs-2: clamp(1.5rem, 2.6vw, 1.75rem);
+  --fs-3: 1.25rem;
+  --fs-body: 1rem;
+  --fs-small: .875rem;
+  --lh-body: 1.75;
+  --lh-tight: 1.3;
+
+  /* 間距 */
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+
+  /* 其他 */
+  --radius: 6px;
+  --maxw: 1200px;
+  --gutter: 16px;
+  --header-h: 64px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 4px 16px rgba(0, 0, 0, .06);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --dur: .35s;
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: 24px; }
+}

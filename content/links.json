@@ -1,0 +1,151 @@
+[
+  {
+    "id": "l01",
+    "group": "campus",
+    "title": {
+      "zh": "院區開放（示意）",
+      "en": "Open House (demo)"
+    },
+    "summary": {
+      "zh": "一年一度打開所有研究所，數百場科普活動，全家都能參加。",
+      "en": "Institutes open their doors with hundreds of hands-on activities."
+    },
+    "url": "https://www.sinica.edu.tw/",
+    "image": {
+      "src": "assets/img/photos/campus-lawn.jpg",
+      "alt": {
+        "zh": "",
+        "en": ""
+      },
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "id": "l03",
+    "group": "campus",
+    "title": {
+      "zh": "科普演講（示意）",
+      "en": "Public lectures (demo)"
+    },
+    "summary": {
+      "zh": "研究人員用一般人聽得懂的方式，分享最新的研究。",
+      "en": "Researchers share their latest work in plain language."
+    },
+    "url": "https://www.sinica.edu.tw/",
+    "image": {
+      "src": "assets/img/photos/lecture-hall.jpg",
+      "alt": {
+        "zh": "",
+        "en": ""
+      },
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "id": "l04",
+    "group": "campus",
+    "title": {
+      "zh": "歷史文物陳列館（示意）",
+      "en": "History museum (demo)"
+    },
+    "summary": {
+      "zh": "考古與歷史文物常設展，看見百年學術的起點。",
+      "en": "Permanent exhibitions of archaeological and historical collections."
+    },
+    "url": "https://www.sinica.edu.tw/",
+    "image": {
+      "src": "assets/img/history/ch1_02_hq_building_nanjing1935.jpg",
+      "alt": {
+        "zh": "",
+        "en": ""
+      },
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "id": "l05",
+    "group": "campus",
+    "title": {
+      "zh": "實驗室開放參觀（示意）",
+      "en": "Lab visits (demo)"
+    },
+    "summary": {
+      "zh": "預約走進實驗室，看研究怎麼一步步完成。",
+      "en": "Book a visit and see research in action."
+    },
+    "url": "https://www.sinica.edu.tw/",
+    "image": {
+      "src": "assets/img/photos/lab.jpg",
+      "alt": {
+        "zh": "",
+        "en": ""
+      },
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "id": "l02",
+    "group": "partners",
+    "title": {
+      "zh": "唐獎（示意）",
+      "en": "Tang Prize (demo)"
+    },
+    "summary": {
+      "zh": "表彰永續發展、生技醫藥、漢學與法治領域的國際獎項。",
+      "en": "An international prize in sustainability, biopharma, sinology and rule of law."
+    },
+    "url": "https://www.tang-prize.org/"
+  },
+  {
+    "id": "l06",
+    "group": "partners",
+    "title": {
+      "zh": "中央研究院官方網站",
+      "en": "Academia Sinica official site"
+    },
+    "summary": {
+      "zh": "本院最新消息、研究成果與各研究所中心。",
+      "en": "News, research and institutes of Academia Sinica."
+    },
+    "url": "https://www.sinica.edu.tw/",
+    "image": {
+      "src": "assets/img/photos/campus-aerial.jpg",
+      "alt": {
+        "zh": "",
+        "en": ""
+      },
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "id": "l07",
+    "group": "follow",
+    "title": {
+      "zh": "影音頻道（示意）",
+      "en": "Video channel (demo)"
+    },
+    "summary": {
+      "zh": "院慶影片、演講錄影與研究人員專訪。",
+      "en": "Centennial films, talks and interviews."
+    },
+    "url": "https://www.sinica.edu.tw/"
+  },
+  {
+    "id": "l08",
+    "group": "follow",
+    "title": {
+      "zh": "社群粉絲專頁（示意）",
+      "en": "Social media (demo)"
+    },
+    "summary": {
+      "zh": "第一時間掌握院慶活動與報名消息。",
+      "en": "Get the latest on centennial events and sign-ups."
+    },
+    "url": "https://www.sinica.edu.tw/"
+  }
+]

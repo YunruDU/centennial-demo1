@@ -1,0 +1,356 @@
+{
+  "chapters": [
+    {
+      "id": "p1950",
+      "period": {
+        "zh": "1950 年代",
+        "en": "1950s"
+      },
+      "title": {
+        "zh": "（示意）落腳南港",
+        "en": "(Demo) Settling in Nangang"
+      },
+      "body": {
+        "zh": "院區在南港的山坡下起步，大門、庫房與第一批研究室陸續完成。",
+        "en": "The campus began at the foot of the Nangang hills, with a gate, storehouses and the first labs."
+      },
+      "image": {
+        "src": "assets/img/history/ch2_02_first_gate_1950s.jpg",
+        "alt": {
+          "zh": "1950 年代的院區大門",
+          "en": "The campus gate in the 1950s"
+        },
+        "width": 389,
+        "height": 400
+      },
+      "map_marker": null,
+      "model_year": 1954,
+      "detail": {
+        "zh": "照片裡是早期的院區大門：兩側方形門柱，門柱上掛著院名，門外是一條還沒鋪柏油的路，遠處是光禿的山坡。院區就從這道門、幾間庫房和研究室開始。",
+        "en": "The early gate: two square pillars bearing the institution's name, an unpaved road, bare hills beyond. The campus began with this gate, a few storehouses and labs."
+      }
+    },
+    {
+      "id": "p1955",
+      "period": {
+        "zh": "1955",
+        "en": "1955"
+      },
+      "title": {
+        "zh": "（示意）通勤的日常",
+        "en": "(Demo) Daily commute"
+      },
+      "body": {
+        "zh": "交通車往返市區與院區，連起研究人員的每一天。",
+        "en": "A shuttle bus linked the campus with the city."
+      },
+      "image": {
+        "src": "assets/img/history/ch2_03_first_bus_1955.jpg",
+        "alt": {
+          "zh": "1955 年的交通車",
+          "en": "The campus bus in 1955"
+        },
+        "width": 400,
+        "height": 399
+      },
+      "map_marker": null,
+      "model_year": 1957,
+      "detail": {
+        "zh": "交通車停在研究室前，車身是當年常見的圓頭造型。院區離市區遠，研究人員每天靠交通車往返，交通車也成了許多人共同的記憶。",
+        "en": "The shuttle bus parked in front of the labs. With the campus far from the city, the bus became part of everyday life and shared memory."
+      },
+      "model_zoom": 2.6,
+      "model_rz": -150
+    },
+    {
+      "id": "p1961",
+      "period": {
+        "zh": "1961",
+        "en": "1961"
+      },
+      "title": {
+        "zh": "（示意）院區成形",
+        "en": "(Demo) A campus takes shape"
+      },
+      "body": {
+        "zh": "一棟棟研究所建築沿著山谷展開。",
+        "en": "Institute buildings spread along the valley."
+      },
+      "image": {
+        "src": "assets/img/history/ch2_04_campus_view_1961.jpg",
+        "alt": {
+          "zh": "1961 年院區全景",
+          "en": "The campus in 1961"
+        },
+        "width": 400,
+        "height": 364
+      },
+      "map_marker": null,
+      "model_year": 1961,
+      "detail": {
+        "zh": "從山坡上往下看，院區還是一片低矮的建築，散落在山谷的平地上，四周是稻田與山林。之後幾十年，建築才一棟棟往上長。",
+        "en": "Seen from the hillside, low buildings were scattered across the valley floor among fields and woods. Over the next decades, the campus grew building by building."
+      }
+    },
+    {
+      "id": "p1968",
+      "period": {
+        "zh": "1968",
+        "en": "1968"
+      },
+      "title": {
+        "zh": "（示意）大門拓寬",
+        "en": "(Demo) A wider gate"
+      },
+      "body": {
+        "zh": "隨著研究人員增加，院區大門拓寬。",
+        "en": "As the community grew, the main gate was widened."
+      },
+      "image": {
+        "src": "assets/img/history/ch5_01_gate_widened_1968.jpg",
+        "alt": {
+          "zh": "1968 年拓寬後的大門",
+          "en": "The widened gate in 1968"
+        },
+        "width": 400,
+        "height": 289
+      },
+      "map_marker": null,
+      "model_year": 1968,
+      "detail": {
+        "zh": "樹枝框住的畫面中，一條筆直的大道通往院區深處，兩旁的建築比十年前多了不少。大門拓寬，也代表院區的規模越來越大。",
+        "en": "Framed by branches, a straight avenue leads into the campus, now with many more buildings. The widened gate reflected a growing campus."
+      }
+    },
+    {
+      "id": "p1980",
+      "period": {
+        "zh": "1970–80 年代",
+        "en": "1970s–80s"
+      },
+      "title": {
+        "zh": "（示意）數理館舍林立",
+        "en": "(Demo) New science buildings"
+      },
+      "body": {
+        "zh": "數學、化學、物理等館舍相繼落成。",
+        "en": "Mathematics, chemistry and physics buildings were completed."
+      },
+      "image": {
+        "src": "assets/img/history/ch6_03_physics_building_1984.jpg",
+        "alt": {
+          "zh": "1984 年的物理館",
+          "en": "The physics building in 1984"
+        },
+        "width": 400,
+        "height": 284
+      },
+      "map_marker": null,
+      "model_year": 1985,
+      "detail": {
+        "zh": "物理館白色外牆配上紅色窗框，入口有深色的雨庇，前面種滿樹木。這個時期數學、化學、物理等館舍相繼落成，院區的樣貌逐漸成形。",
+        "en": "The physics building: white walls, red window frames, a dark entrance canopy and trees in front. Mathematics, chemistry and physics buildings rose in this period."
+      }
+    },
+    {
+      "id": "p2020",
+      "period": {
+        "zh": "今日",
+        "en": "Today"
+      },
+      "title": {
+        "zh": "（示意）綠意中的研究聚落",
+        "en": "(Demo) A research village in green"
+      },
+      "body": {
+        "zh": "今天的南港院區，是一座被山林環抱的研究聚落，也是市民散步、參與院區開放的地方。",
+        "en": "Today the campus is a research village among green hills, open to the public."
+      },
+      "image": {
+        "src": "assets/img/photos/campus-aerial.jpg",
+        "alt": {
+          "zh": "南港院區空拍",
+          "en": "Aerial view of the Nangang campus"
+        },
+        "width": 1600,
+        "height": 578
+      },
+      "map_marker": null,
+      "model_year": 2028,
+      "detail": {
+        "zh": "從空中看，研究大樓錯落在綠色山林之間，遠方是台北市區。今天的院區除了做研究，也在院區開放時迎接市民走進來。",
+        "en": "From above, research buildings sit among green hills with the city in the distance. Today the campus also welcomes the public on Open House days."
+      }
+    }
+  ],
+  "model": [
+    {
+      "id": "gate1950",
+      "name": {
+        "zh": "大門",
+        "en": "Gate"
+      },
+      "w": 8,
+      "d": 12,
+      "h": 32,
+      "since": 1950,
+      "kind": "gate"
+    },
+    {
+      "id": "store",
+      "name": {
+        "zh": "庫房",
+        "en": "Storehouse"
+      },
+      "w": 96,
+      "d": 30,
+      "h": 14,
+      "since": 1954,
+      "kind": "store"
+    },
+    {
+      "id": "lab",
+      "w": 62,
+      "d": 34,
+      "h": 20,
+      "since": 1954
+    },
+    {
+      "id": "b57",
+      "w": 48,
+      "d": 30,
+      "h": 16,
+      "since": 1957
+    },
+    {
+      "id": "b61a",
+      "w": 62,
+      "d": 40,
+      "h": 30,
+      "since": 1961
+    },
+    {
+      "id": "b61b",
+      "w": 52,
+      "d": 40,
+      "h": 26,
+      "since": 1961
+    },
+    {
+      "id": "b63",
+      "w": 70,
+      "d": 42,
+      "h": 32,
+      "since": 1963
+    },
+    {
+      "id": "gate1968",
+      "name": {
+        "zh": "拓寬後的大門",
+        "en": "Widened gate"
+      },
+      "w": 8,
+      "d": 14,
+      "h": 38,
+      "since": 1968,
+      "kind": "gate-wide"
+    },
+    {
+      "id": "math",
+      "name": {
+        "zh": "數學館",
+        "en": "Mathematics"
+      },
+      "w": 50,
+      "d": 26,
+      "h": 64,
+      "since": 1972,
+      "kind": "math"
+    },
+    {
+      "id": "b77",
+      "w": 50,
+      "d": 40,
+      "h": 30,
+      "since": 1977
+    },
+    {
+      "id": "chem",
+      "name": {
+        "zh": "化學館",
+        "en": "Chemistry"
+      },
+      "w": 86,
+      "d": 40,
+      "h": 48,
+      "since": 1983,
+      "kind": "chem"
+    },
+    {
+      "id": "phys",
+      "name": {
+        "zh": "物理館",
+        "en": "Physics"
+      },
+      "w": 74,
+      "d": 58,
+      "h": 50,
+      "since": 1984,
+      "kind": "phys"
+    },
+    {
+      "id": "b90",
+      "w": 60,
+      "d": 50,
+      "h": 50,
+      "since": 1991
+    },
+    {
+      "id": "b99",
+      "w": 84,
+      "d": 50,
+      "h": 36,
+      "since": 1999
+    },
+    {
+      "id": "b02",
+      "w": 96,
+      "d": 60,
+      "h": 70,
+      "since": 2003
+    },
+    {
+      "id": "b08",
+      "w": 70,
+      "d": 70,
+      "h": 92,
+      "since": 2008
+    },
+    {
+      "id": "b14",
+      "w": 52,
+      "d": 72,
+      "h": 60,
+      "since": 2014
+    },
+    {
+      "id": "b20",
+      "w": 64,
+      "d": 56,
+      "h": 66,
+      "since": 2021
+    },
+    {
+      "id": "bus",
+      "name": {
+        "zh": "交通車",
+        "en": "Shuttle bus"
+      },
+      "kind": "bus",
+      "w": 64,
+      "d": 18,
+      "h": 20,
+      "since": 1955
+    }
+  ]
+}

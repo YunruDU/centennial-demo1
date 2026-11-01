@@ -1,0 +1,638 @@
+{
+  "skip_to_main": {
+    "zh": "跳到主要內容",
+    "en": "Skip to main content"
+  },
+  "demo_badge": {
+    "zh": "概念示意",
+    "en": "CONCEPT"
+  },
+  "lang_switch": {
+    "zh": "English",
+    "en": "中文"
+  },
+  "menu": {
+    "zh": "選單",
+    "en": "Menu"
+  },
+  "nav_main": {
+    "zh": "主選單",
+    "en": "Main navigation"
+  },
+  "nav_footer": {
+    "zh": "頁尾選單",
+    "en": "Footer navigation"
+  },
+  "social": {
+    "zh": "社群媒體",
+    "en": "Social media"
+  },
+  "close": {
+    "zh": "關閉",
+    "en": "Close"
+  },
+  "filter": {
+    "zh": "篩選",
+    "en": "Filter"
+  },
+  "filter_all": {
+    "zh": "全部",
+    "en": "All"
+  },
+  "search": {
+    "zh": "搜尋",
+    "en": "Search"
+  },
+  "search_placeholder": {
+    "zh": "輸入關鍵字",
+    "en": "Enter keywords"
+  },
+  "keyword": {
+    "zh": "關鍵字",
+    "en": "Keyword"
+  },
+  "category": {
+    "zh": "類別",
+    "en": "Category"
+  },
+  "month": {
+    "zh": "月份",
+    "en": "Month"
+  },
+  "year": {
+    "zh": "年度",
+    "en": "Year"
+  },
+  "jump_to_decade": {
+    "zh": "跳到年代",
+    "en": "Jump to decade"
+  },
+  "results_count": {
+    "zh": "共 {n} 筆",
+    "en": "{n} results"
+  },
+  "no_results": {
+    "zh": "沒有符合條件的資料，請換個關鍵字或條件。",
+    "en": "No results. Try other keywords or filters."
+  },
+  "read_more": {
+    "zh": "看更多",
+    "en": "Read more"
+  },
+  "back": {
+    "zh": "回上一層",
+    "en": "Back"
+  },
+  "external_hint": {
+    "zh": "（另開新視窗）",
+    "en": " (opens in a new window)"
+  },
+  "pagination": {
+    "zh": "分頁",
+    "en": "Pagination"
+  },
+  "prev": {
+    "zh": "上一頁",
+    "en": "Previous page"
+  },
+  "next": {
+    "zh": "下一頁",
+    "en": "Next page"
+  },
+  "page_n": {
+    "zh": "第 {n} 頁",
+    "en": "Page {n}"
+  },
+  "breadcrumb": {
+    "zh": "麵包屑",
+    "en": "Breadcrumb"
+  },
+  "view_timeline": {
+    "zh": "時間軸",
+    "en": "Timeline"
+  },
+  "view_blocks": {
+    "zh": "區塊",
+    "en": "Blocks"
+  },
+  "view_switch": {
+    "zh": "檢視方式",
+    "en": "View"
+  },
+  "date": {
+    "zh": "日期",
+    "en": "Date"
+  },
+  "location": {
+    "zh": "地點",
+    "en": "Location"
+  },
+  "related_links": {
+    "zh": "相關連結",
+    "en": "Related links"
+  },
+  "tags": {
+    "zh": "關鍵字標籤",
+    "en": "Tags"
+  },
+  "video": {
+    "zh": "影音",
+    "en": "Video"
+  },
+  "zoom_image": {
+    "zh": "放大圖片",
+    "en": "Enlarge image"
+  },
+  "institutes": {
+    "zh": "所屬研究所及中心",
+    "en": "Institutes and centers"
+  },
+  "visit_site": {
+    "zh": "前往網站",
+    "en": "Visit website"
+  },
+  "read_online": {
+    "zh": "線上閱讀",
+    "en": "Read online"
+  },
+  "download": {
+    "zh": "下載",
+    "en": "Download"
+  },
+  "where_to_buy": {
+    "zh": "購買資訊",
+    "en": "Where to buy"
+  },
+  "countdown_label": {
+    "zh": "距離百年院慶",
+    "en": "Countdown to the Centennial"
+  },
+  "days": {
+    "zh": "天",
+    "en": "days"
+  },
+  "hours": {
+    "zh": "時",
+    "en": "hours"
+  },
+  "minutes": {
+    "zh": "分",
+    "en": "minutes"
+  },
+  "seconds": {
+    "zh": "秒",
+    "en": "seconds"
+  },
+  "pause": {
+    "zh": "暫停",
+    "en": "Pause"
+  },
+  "play": {
+    "zh": "播放",
+    "en": "Play"
+  },
+  "not_found_title": {
+    "zh": "找不到這筆資料",
+    "en": "Item not found"
+  },
+  "not_found_body": {
+    "zh": "連結可能已失效，或資料已被移除。",
+    "en": "The link may be outdated, or the item has been removed."
+  },
+  "load_error": {
+    "zh": "資料載入失敗，請重新整理。",
+    "en": "Failed to load. Please reload the page."
+  },
+  "stub_pending": {
+    "zh": "這一頁還在製作中（{wp}）。",
+    "en": "This page is under construction ({wp})."
+  },
+  "page.home": {
+    "zh": "首頁",
+    "en": "Home"
+  },
+  "page.events": {
+    "zh": "百年院慶系列活動",
+    "en": "Centennial Events"
+  },
+  "page.chronicle": {
+    "zh": "百年大事記",
+    "en": "Chronicle"
+  },
+  "page.contributions": {
+    "zh": "百大貢獻",
+    "en": "100 Contributions"
+  },
+  "page.news": {
+    "zh": "最新消息",
+    "en": "News"
+  },
+  "page.centennial": {
+    "zh": "百年中研",
+    "en": "A Century of Sinica"
+  },
+  "page.campus": {
+    "zh": "百年院區",
+    "en": "The Campus"
+  },
+  "page.links": {
+    "zh": "相關連結",
+    "en": "Links"
+  },
+  "page.gifts": {
+    "zh": "百年禮品",
+    "en": "Centennial Gifts"
+  },
+  "page.item": {
+    "zh": "內頁",
+    "en": "Detail"
+  },
+  "page.admin": {
+    "zh": "後台示意",
+    "en": "Admin (demo)"
+  },
+  "cat.seminar": {
+    "zh": "研討會",
+    "en": "Seminar"
+  },
+  "cat.exhibition": {
+    "zh": "展覽",
+    "en": "Exhibition"
+  },
+  "cat.celebration": {
+    "zh": "慶祝活動",
+    "en": "Celebration"
+  },
+  "div.math": {
+    "zh": "數理科學組",
+    "en": "Mathematics & Physical Sciences"
+  },
+  "div.life": {
+    "zh": "生命科學組",
+    "en": "Life Sciences"
+  },
+  "div.humanities": {
+    "zh": "人文及社會科學組",
+    "en": "Humanities & Social Sciences"
+  },
+  "name": {
+    "zh": "姓名",
+    "en": "Name"
+  },
+  "further_reading": {
+    "zh": "延伸閱讀",
+    "en": "Further reading"
+  },
+  "style_switcher": {
+    "zh": "風格提案",
+    "en": "Style proposals"
+  },
+  "style.a": {
+    "zh": "A 百年典藏",
+    "en": "A Heritage"
+  },
+  "style.b": {
+    "zh": "B 現代學術",
+    "en": "B Modern"
+  },
+  "style.c": {
+    "zh": "C 沉浸夜色",
+    "en": "C Immersive"
+  },
+  "countdown_text": {
+    "zh": "距離百年院慶還有 {d} 天",
+    "en": "{d} days until the Centennial"
+  },
+  "watch_on_youtube": {
+    "zh": "在 YouTube 觀看影片",
+    "en": "Watch on YouTube"
+  },
+  "pause_motion": {
+    "zh": "暫停動態",
+    "en": "Pause motion"
+  },
+  "play_motion": {
+    "zh": "播放動態",
+    "en": "Play motion"
+  },
+  "lead.events": {
+    "zh": "自 2027 年起，院慶系列活動陸續展開，涵蓋研討會、展覽與慶祝活動。（時程為規劃示意）",
+    "en": "From 2027, seminars, exhibitions and celebrations lead up to the centennial. (Tentative)"
+  },
+  "lead.chronicle": {
+    "zh": "從 1928 年南京創院到 2028 年百年院慶，依年代回顧重要時刻。",
+    "en": "From the founding in Nanjing in 1928 to the centennial in 2028, decade by decade."
+  },
+  "lead.contributions": {
+    "zh": "一百項改變臺灣的研究時刻，橫跨數理、生命與人文社會三大學組。（以下為示意）",
+    "en": "One hundred research moments across three divisions. (Placeholders)"
+  },
+  "lead.news": {
+    "zh": "院慶相關的最新消息與公告。",
+    "en": "News and announcements about the centennial."
+  },
+  "lead.centennial": {
+    "zh": "院長的話、院史電子書、三大學組與影音專訪。",
+    "en": "A message from the president, the history e-book, our divisions and interviews."
+  },
+  "lead.campus": {
+    "zh": "從南港山腳下的幾棟房子，到被綠意環抱的研究聚落。",
+    "en": "From a few buildings at the foot of the hills to a research village in green."
+  },
+  "lead.links": {
+    "zh": "與院慶相關的院內外網站。",
+    "en": "Related websites."
+  },
+  "lead.gifts": {
+    "zh": "百年院慶紀念品。點選商品看不同顏色、角度與尺寸。（示意，不提供線上交易）",
+    "en": "Centennial souvenirs. Tap an item for colours, views and sizes. (Demo; no online sales)"
+  },
+  "president_message": {
+    "zh": "院長的話",
+    "en": "Message from the President"
+  },
+  "ebook": {
+    "zh": "院史電子書",
+    "en": "History e-book"
+  },
+  "divisions": {
+    "zh": "三大學組",
+    "en": "Three divisions"
+  },
+  "media_interviews": {
+    "zh": "影音與專訪",
+    "en": "Videos and interviews"
+  },
+  "coming_soon": {
+    "zh": "準備中",
+    "en": "Coming soon"
+  },
+  "read_full": {
+    "zh": "閱讀全文",
+    "en": "Read in full"
+  },
+  "contrib_total": {
+    "zh": "項研究貢獻",
+    "en": "research contributions"
+  },
+  "contrib_note": {
+    "zh": "正式名單將於評選後公布；以下為示意卡片。",
+    "en": "The official list will be announced later; these are placeholders."
+  },
+  "decade": {
+    "zh": "年代",
+    "en": "Decade"
+  },
+  "decade_label": {
+    "zh": "{y} 年代",
+    "en": "{y}s"
+  },
+  "story_hint": {
+    "zh": "往下捲動，看院區的變化",
+    "en": "Scroll to see the campus change"
+  },
+  "explore": {
+    "zh": "探索",
+    "en": "Explore"
+  },
+  "price": {
+    "zh": "價格",
+    "en": "Price"
+  },
+  "strip_title": {
+    "zh": "百年影像 · 點照片看大事記",
+    "en": "A century in photos · tap to open the chronicle"
+  },
+  "hero_cap_100": {
+    "zh": "1928 — 2028　一百年的影像，凝聚成一個 100",
+    "en": "1928 — 2028 · A hundred years of images, forming one 100"
+  },
+  "hero_cap_tw": {
+    "zh": "立足臺灣，迎向下一個世紀",
+    "en": "Rooted in Taiwan, facing the next century"
+  },
+  "view_list": {
+    "zh": "列表",
+    "en": "List"
+  },
+  "view_grid": {
+    "zh": "區塊",
+    "en": "Grid"
+  },
+  "filter_title": {
+    "zh": "篩選活動",
+    "en": "Filter events"
+  },
+  "event_detail": {
+    "zh": "活動詳情",
+    "en": "Event details"
+  },
+  "add_calendar": {
+    "zh": "加入行事曆",
+    "en": "Add to calendar"
+  },
+  "prev_item": {
+    "zh": "上一個活動",
+    "en": "Previous event"
+  },
+  "next_item": {
+    "zh": "下一個活動",
+    "en": "Next event"
+  },
+  "open_poster": {
+    "zh": "放大海報",
+    "en": "Open poster"
+  },
+  "upcoming": {
+    "zh": "即將登場",
+    "en": "COMING UP"
+  },
+  "days_left_unit": {
+    "zh": "天後開始",
+    "en": "days to go"
+  },
+  "jump_to_era": {
+    "zh": "跳到時期",
+    "en": "Jump to era"
+  },
+  "chapter": {
+    "zh": "CHAPTER",
+    "en": "CHAPTER"
+  },
+  "era1_title": {
+    "zh": "南京創院",
+    "en": "Founding in Nanjing"
+  },
+  "era1_desc": {
+    "zh": "（示意）創院於南京，建立各研究所與第一屆院士制度。",
+    "en": "(Demo) Founded in Nanjing; institutes and the first academicians."
+  },
+  "era2_title": {
+    "zh": "遷臺・南港",
+    "en": "To Nangang"
+  },
+  "era2_desc": {
+    "zh": "（示意）文物圖書暫存楊梅，隨後在南港落腳，院區從庫房與大門開始。",
+    "en": "(Demo) Collections stored in Yangmei, then a new home in Nangang."
+  },
+  "era3_title": {
+    "zh": "院區成形",
+    "en": "The campus takes shape"
+  },
+  "era3_desc": {
+    "zh": "（示意）大門拓寬，數學、化學、物理等研究大樓陸續落成。",
+    "en": "(Demo) The gate widened; research buildings rose one after another."
+  },
+  "era4_title": {
+    "zh": "迎向百年",
+    "en": "Toward the centennial"
+  },
+  "era4_desc": {
+    "zh": "（示意）歷任院長交接，研究版圖持續擴展，迎接 2028 年百年院慶。",
+    "en": "(Demo) Successive presidents, a growing research map, and the 2028 centennial."
+  },
+  "events_unit": {
+    "zh": "件大事",
+    "en": "events"
+  },
+  "rotate_left": {
+    "zh": "向左旋轉",
+    "en": "Rotate left"
+  },
+  "rotate_right": {
+    "zh": "向右旋轉",
+    "en": "Rotate right"
+  },
+  "drag_rotate": {
+    "zh": "拖曳旋轉",
+    "en": "Drag to rotate"
+  },
+  "model_note": {
+    "zh": "院區時間大道：建築依興建年份沿路排列，不代表實際位置（年份與量體皆為示意）",
+    "en": "Campus time avenue: buildings are lined up by year built, not by location (years and sizes are illustrative)"
+  },
+  "buildings_count": {
+    "zh": "{n} 棟建築",
+    "en": "{n} buildings"
+  },
+  "archive_photo": {
+    "zh": "院史照片",
+    "en": "ARCHIVE"
+  },
+  "overview": {
+    "zh": "百年全景",
+    "en": "The whole century"
+  },
+  "detail_note": {
+    "zh": "（照片說明為示意，正式內容以院史資料為準）",
+    "en": "(Captions are illustrative; to be confirmed with official records.)"
+  },
+  "contrib_no": {
+    "zh": "編號",
+    "en": "Number"
+  },
+  "contrib_facts": {
+    "zh": "貢獻資訊",
+    "en": "About this contribution"
+  },
+  "back_to_contrib": {
+    "zh": "回到百大貢獻",
+    "en": "Back to all contributions"
+  },
+  "same_division": {
+    "zh": "同學組的其他貢獻",
+    "en": "More from this division"
+  },
+  "contrib_pager": {
+    "zh": "上一項與下一項貢獻",
+    "en": "Previous and next"
+  },
+  "prev_contrib": {
+    "zh": "上一項",
+    "en": "Previous"
+  },
+  "next_contrib": {
+    "zh": "下一項",
+    "en": "Next"
+  },
+  "links_group.campus": {
+    "zh": "院內活動與場館",
+    "en": "ON CAMPUS"
+  },
+  "links_group.partners": {
+    "zh": "獎項與官方網站",
+    "en": "PRIZES & OFFICIAL SITES"
+  },
+  "links_group.follow": {
+    "zh": "追蹤我們",
+    "en": "FOLLOW US"
+  },
+  "view_product": {
+    "zh": "查看商品",
+    "en": "View item"
+  },
+  "color": {
+    "zh": "顏色",
+    "en": "Colour"
+  },
+  "size": {
+    "zh": "尺寸",
+    "en": "Size"
+  },
+  "views": {
+    "zh": "看其他角度",
+    "en": "Views"
+  },
+  "try_on": {
+    "zh": "尺寸試穿",
+    "en": "Size try-on"
+  },
+  "your_height": {
+    "zh": "你的身高",
+    "en": "Your height"
+  },
+  "size_chart": {
+    "zh": "尺寸表（cm，示意）",
+    "en": "Size chart (cm, demo)"
+  },
+  "chest_w": {
+    "zh": "胸寬",
+    "en": "Chest"
+  },
+  "body_len": {
+    "zh": "衣長",
+    "en": "Length"
+  },
+  "recommended": {
+    "zh": "建議尺寸",
+    "en": "Suggested size"
+  },
+  "fit.tight": {
+    "zh": "偏緊",
+    "en": "Snug"
+  },
+  "fit.fit": {
+    "zh": "合身",
+    "en": "Regular fit"
+  },
+  "fit.loose": {
+    "zh": "寬鬆",
+    "en": "Relaxed"
+  },
+  "fit.xloose": {
+    "zh": "很寬鬆",
+    "en": "Oversized"
+  },
+  "try_on_note": {
+    "zh": "以身高推估體型，僅供參考。",
+    "en": "Estimated from height; for reference only."
+  },
+  "specs": {
+    "zh": "規格",
+    "en": "Specifications"
+  },
+  "no_shop": {
+    "zh": "本站不提供線上交易，請至販售地點購買。",
+    "en": "No online sales; please buy at the listed locations."
+  }
+}

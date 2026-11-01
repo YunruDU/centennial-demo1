@@ -1,0 +1,62 @@
+/* 百年禮品（WP8）：商品型錄＋商品頁 */
+.p-gift-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4) var(--space-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.p-gift-card { display: flex; flex-direction: column; width: 100%; height: 100%; padding: 0; border: 0; background: none; text-align: left; font: inherit; color: inherit; cursor: pointer; }
+.p-gift-card__media { position: relative; display: block; aspect-ratio: 1; border-radius: 18px; overflow: hidden; background: #eef1f5; box-shadow: 0 1px 2px rgba(10, 18, 32, .06), 0 12px 30px rgba(10, 18, 32, .08); transition: transform .4s var(--ease), box-shadow .4s var(--ease); }
+.p-gift-card__media img { width: 100%; height: 100%; object-fit: cover; transition: opacity .5s var(--ease), transform .6s var(--ease); }
+.p-gift-card__alt { position: absolute; inset: 0; opacity: 0; }
+.p-gift-card:hover .p-gift-card__media, .p-gift-card:focus-visible .p-gift-card__media { transform: translateY(-4px); box-shadow: 0 2px 4px rgba(10, 18, 32, .08), 0 22px 44px rgba(10, 18, 32, .16); }
+.p-gift-card:hover .p-gift-card__alt, .p-gift-card:focus-visible .p-gift-card__alt { opacity: 1; }
+.p-gift-card:hover .p-gift-card__media img, .p-gift-card:focus-visible .p-gift-card__media img { transform: scale(1.03); }
+.p-gift-card__body { display: flex; flex-direction: column; gap: 6px; padding: 16px 4px 0; }
+.p-gift-card__dots { display: flex; gap: 6px; }
+.p-gift-card__dots i { width: 14px; height: 14px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(10, 18, 32, .25); }
+.p-gift-card__name { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; }
+.p-gift-card__sum { color: var(--c-ink-soft); font-size: .95rem; }
+.p-gift-card__foot { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+.p-gift-card__price { font-weight: 700; }
+.p-gift-card__more { font-size: .9rem; color: var(--c-primary, #1b3560); }
+.p-gift-card:hover .p-gift-card__more { text-decoration: underline; }
+.p-gift-note { margin-top: var(--space-3); font-size: var(--fs-small); color: var(--c-ink-soft); }
+
+/* 商品頁（對話框） */
+.p-gift-dialog { width: min(1120px, 100%); }
+.p-gift-sheet { display: grid; gap: var(--space-4); }
+@media (min-width: 900px) { .p-gift-sheet { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: start; } }
+.p-gift-sheet__stage { aspect-ratio: 1; border-radius: 16px; overflow: hidden; background: #eef1f5; }
+.p-gift-sheet__stage img { width: 100%; height: 100%; object-fit: cover; animation: p-gift-in .35s var(--ease); }
+@keyframes p-gift-in { from { opacity: .3; transform: scale(.985); } }
+.p-gift-sheet__thumbs { display: flex; gap: 10px; margin-top: 12px; }
+.p-gift-sheet__thumb { display: flex; flex-direction: column; align-items: center; gap: 4px; width: 88px; padding: 4px; border: 2px solid transparent; border-radius: 12px; background: none; color: inherit; font: inherit; font-size: .8rem; cursor: pointer; }
+.p-gift-sheet__thumb img { width: 76px; height: 76px; border-radius: 8px; object-fit: cover; }
+.p-gift-sheet__thumb[aria-pressed="true"] { border-color: var(--c-accent); }
+.p-gift-sheet__price { margin: 0 0 var(--space-1); font-size: 1.3rem; font-weight: 700; color: var(--c-accent); }
+.p-gift-sheet__desc { line-height: 1.9; margin-bottom: var(--space-3); }
+.p-gift-sheet__opt { margin-bottom: var(--space-3); }
+.p-gift-label { margin: 0 0 8px; font-size: var(--fs-small); color: var(--c-ink-soft); letter-spacing: .06em; }
+.p-gift-sheet__colorname { color: var(--c-ink); }
+.p-gift-swatches { display: flex; gap: 12px; }
+.p-gift-swatch { width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--sw); cursor: pointer; box-shadow: inset 0 0 0 1px rgba(127, 127, 127, .5); }
+.p-gift-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 1px rgba(127, 127, 127, .5), 0 0 0 3px var(--c-bg, #0a1220), 0 0 0 5px var(--c-accent); }
+.p-gift-sizes button { min-width: 52px; }
+.p-gift-sheet__h { font-size: 1rem; letter-spacing: .1em; margin: 0 0 6px; }
+.p-gift-specs { margin: 0; }
+.p-gift-specs > div { display: grid; grid-template-columns: 6.5em 1fr; gap: 8px; padding: 9px 0; border-bottom: 1px solid var(--c-line); font-size: .95rem; }
+.p-gift-specs dt { color: var(--c-ink-soft); }
+.p-gift-specs dd { margin: 0; }
+
+/* 尺寸試穿 */
+.p-tryon { grid-column: 1 / -1; padding: var(--space-3); border-radius: 16px; border: 1px solid var(--c-line); background: rgba(255, 255, 255, .03); }
+.p-tryon h3 { margin: 0 0 var(--space-2); font-size: 1.15rem; }
+.p-tryon__row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: var(--space-2); }
+.p-tryon__row .p-gift-label { margin: 0; }
+.p-tryon__body { display: grid; gap: var(--space-3); align-items: center; }
+@media (min-width: 700px) { .p-tryon__body { grid-template-columns: 260px minmax(0, 1fr); } }
+.p-tryon__stage { border-radius: 12px; background: #eef1f5; }
+.p-tryon__fig { display: block; width: 100%; height: auto; }
+.p-tryon__verdict { font-size: 1.1rem; margin: 0 0 4px; }
+.p-tryon__verdict strong { color: var(--c-accent); }
+.p-tryon__note { font-size: var(--fs-small); color: var(--c-ink-soft); margin: 0 0 var(--space-2); }
+.p-tryon__table { border-collapse: collapse; width: 100%; max-width: 420px; font-size: .95rem; }
+.p-tryon__table th, .p-tryon__table td { padding: 8px 10px; border-bottom: 1px solid var(--c-line); text-align: center; }
+.p-tryon__table th[scope="row"] { text-align: left; color: var(--c-ink-soft); font-weight: 400; }
+@media (prefers-reduced-motion: reduce) { .p-gift-card__media, .p-gift-card__media img, .p-gift-sheet__stage img { transition: none; animation: none; } }

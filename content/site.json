@@ -1,0 +1,140 @@
+{
+  "name": {
+    "zh": "中央研究院百年院慶（概念示意）",
+    "en": "Academia Sinica Centennial (Concept)"
+  },
+  "short_name": {
+    "zh": "百年院慶",
+    "en": "Centennial"
+  },
+  "nav": [
+    {
+      "key": "home",
+      "href": "index.html",
+      "label": {
+        "zh": "首頁",
+        "en": "Home"
+      }
+    },
+    {
+      "key": "events",
+      "href": "events.html",
+      "label": {
+        "zh": "百年院慶系列活動",
+        "en": "Centennial Events"
+      },
+      "nav_label": {
+        "zh": "系列活動",
+        "en": "Events"
+      }
+    },
+    {
+      "key": "chronicle",
+      "href": "chronicle.html",
+      "label": {
+        "zh": "百年大事記",
+        "en": "Chronicle"
+      }
+    },
+    {
+      "key": "contributions",
+      "href": "contributions.html",
+      "label": {
+        "zh": "百大貢獻",
+        "en": "100 Contributions"
+      },
+      "nav_label": {
+        "zh": "百大貢獻",
+        "en": "Contributions"
+      }
+    },
+    {
+      "key": "news",
+      "href": "news.html",
+      "label": {
+        "zh": "最新消息",
+        "en": "News"
+      }
+    },
+    {
+      "key": "centennial",
+      "href": "centennial.html",
+      "label": {
+        "zh": "百年中研",
+        "en": "A Century of Sinica"
+      },
+      "nav_label": {
+        "zh": "百年中研",
+        "en": "Our Century"
+      }
+    },
+    {
+      "key": "campus",
+      "href": "campus.html",
+      "label": {
+        "zh": "百年院區",
+        "en": "The Campus"
+      }
+    },
+    {
+      "key": "links",
+      "href": "links.html",
+      "label": {
+        "zh": "相關連結",
+        "en": "Links"
+      }
+    },
+    {
+      "key": "gifts",
+      "href": "gifts.html",
+      "label": {
+        "zh": "百年禮品",
+        "en": "Centennial Gifts"
+      }
+    }
+  ],
+  "social": [
+    {
+      "key": "facebook",
+      "url": "#",
+      "label": {
+        "zh": "Facebook（示意）",
+        "en": "Facebook (demo)"
+      }
+    },
+    {
+      "key": "youtube",
+      "url": "#",
+      "label": {
+        "zh": "YouTube（示意）",
+        "en": "YouTube (demo)"
+      }
+    },
+    {
+      "key": "instagram",
+      "url": "#",
+      "label": {
+        "zh": "Instagram（示意）",
+        "en": "Instagram (demo)"
+      }
+    }
+  ],
+  "footer": {
+    "zh": "© 2026 網站概念示意｜非官方網站",
+    "en": "© 2026 Website concept | Not an official website"
+  },
+  "disclaimer": {
+    "zh": "本站為個人製作的網站概念示意，非中央研究院官方網站。文字、日期與活動多為示意，正式資訊以本院公告為準；照片版權屬原提供單位，請勿轉載。",
+    "en": "This is a personal website concept, not an official Academia Sinica website. Most text, dates and events are placeholders; photos belong to their original providers."
+  },
+  "countdown_target": "2028-06-09T00:00:00+08:00",
+  "style_proposals": false,
+  "brand_line1": {
+    "zh": "中央研究院",
+    "en": "Academia Sinica"
+  },
+  "brand_line2": {
+    "zh": "百年院慶 1928–2028（概念示意）",
+    "en": "Centennial 1928–2028 (Concept)"
+  }
+}

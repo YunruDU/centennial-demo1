@@ -1,0 +1,248 @@
+{
+  "detail_mode": "page",
+  "items": [
+    {
+      "id": "k001",
+      "title": {
+        "zh": "（示意）南島語族語言地圖",
+        "en": "(Demo) Mapping Austronesian languages"
+      },
+      "division": "humanities",
+      "keywords": [],
+      "summary": {
+        "zh": "跨數十年田野與語料庫建置，奠定南島語比較研究基礎。",
+        "en": "Decades of fieldwork and corpus building laid the groundwork for comparative Austronesian studies."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/history/ch1_04_yangmei_working.jpg",
+        "alt": {
+          "zh": "早期研究人員整理文物資料（歷史照片）",
+          "en": "Early researchers sorting materials (historical photo)"
+        },
+        "width": 400,
+        "height": 282
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k002",
+      "title": {
+        "zh": "（示意）化學反應動力學",
+        "en": "(Demo) Chemical reaction dynamics"
+      },
+      "division": "math",
+      "keywords": [],
+      "summary": {
+        "zh": "分子束交叉實驗方法，讓人看清化學反應如何發生。",
+        "en": "Crossed molecular beam experiments revealed how chemical reactions unfold."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/photos/lab.jpg",
+        "alt": {
+          "zh": "實驗室裡的精密儀器與管線",
+          "en": "Precision instruments and tubing in a laboratory"
+        },
+        "width": 1200,
+        "height": 800
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k003",
+      "title": {
+        "zh": "（示意）病毒學與疫苗研究",
+        "en": "(Demo) Virology and vaccines"
+      },
+      "division": "life",
+      "keywords": [],
+      "summary": {
+        "zh": "病原分子機制與檢測平台，於公共衛生事件中提供支援。",
+        "en": "Molecular studies and testing platforms supporting public health."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k004",
+      "title": {
+        "zh": "（示意）臺灣史料的系統整理",
+        "en": "(Demo) Organising Taiwan's historical records"
+      },
+      "division": "humanities",
+      "keywords": [],
+      "summary": {
+        "zh": "檔案、方志與民間文書的數位化與校釋。",
+        "en": "Digitising and annotating archives, gazetteers and private documents."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k005",
+      "title": {
+        "zh": "（示意）地震與地體構造觀測",
+        "en": "(Demo) Earthquake and tectonic observation"
+      },
+      "division": "math",
+      "keywords": [],
+      "summary": {
+        "zh": "長期觀測網與資料分析，協助臺灣面對地震風險。",
+        "en": "Long-term monitoring networks to help Taiwan face seismic risk."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/history/ch6_01_math_building_1972.jpg",
+        "alt": {
+          "zh": "1970 年代落成的研究大樓（歷史照片）",
+          "en": "A research building completed in the 1970s (historical photo)"
+        },
+        "width": 400,
+        "height": 285
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k006",
+      "title": {
+        "zh": "（示意）醣分子與化學生物學",
+        "en": "(Demo) Glycoscience and chemical biology"
+      },
+      "division": "life",
+      "keywords": [],
+      "summary": {
+        "zh": "醣化學合成方法，應用於疫苗與新藥開發。",
+        "en": "Carbohydrate synthesis methods applied to vaccines and new drugs."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k007",
+      "title": {
+        "zh": "（示意）漢籍電子文獻資料庫",
+        "en": "(Demo) Digital archive of Chinese classics"
+      },
+      "division": "humanities",
+      "keywords": [],
+      "summary": {
+        "zh": "大規模古籍全文檢索，成為漢學研究的基礎設施。",
+        "en": "Full-text search of classical texts, now research infrastructure worldwide."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k008",
+      "title": {
+        "zh": "（示意）天文與電波觀測",
+        "en": "(Demo) Radio astronomy"
+      },
+      "division": "math",
+      "keywords": [],
+      "summary": {
+        "zh": "參與國際電波望遠鏡與次毫米波陣列計畫。",
+        "en": "Taking part in international radio and submillimetre array projects."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    },
+    {
+      "id": "k009",
+      "title": {
+        "zh": "（示意）生物多樣性長期研究",
+        "en": "(Demo) Long-term biodiversity research"
+      },
+      "division": "life",
+      "keywords": [],
+      "summary": {
+        "zh": "物種調查與生態系觀測，支援保育政策與氣候調適。",
+        "en": "Species surveys and ecosystem monitoring that inform conservation."
+      },
+      "body": {
+        "zh": "<h3>研究緣起</h3><p>（示意）說明這項研究為什麼開始、想回答什麼問題，以及當時臺灣與國際的研究背景。</p><h3>重要成果</h3><p>（示意）用一般人看得懂的方式，介紹最關鍵的發現或方法，搭配圖片或影片。</p><h3>對臺灣與世界的影響</h3><p>（示意）這項研究如何改變了學術領域、產業或日常生活，以及接下來的方向。</p><p class=\"u-muted\">（以上為內容架構示意，正式內容待百大貢獻評選後提供。）</p>",
+        "en": "<h3>Background</h3><p>(Demo) Why the research began and what question it set out to answer.</p><h3>Key results</h3><p>(Demo) The main findings or methods, explained for a general audience.</p><h3>Impact</h3><p>(Demo) How the work changed the field, industry or everyday life, and what comes next.</p><p class=\"u-muted\">(Content structure only; official text to follow.)</p>"
+      },
+      "image": {
+        "src": "assets/img/placeholder-4x3.svg",
+        "alt": {
+          "zh": "示意圖",
+          "en": "Placeholder image"
+        },
+        "width": 1200,
+        "height": 900
+      },
+      "external_url": ""
+    }
+  ]
+}

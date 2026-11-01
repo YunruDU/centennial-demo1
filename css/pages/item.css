@@ -1,0 +1,62 @@
+/* 第三層內頁的類型專屬版面 */
+
+/* ---------- 百大貢獻 ---------- */
+.p-item-contrib { --div: #7fb2ff; }
+.p-item-contrib[data-division="life"] { --div: #7fd6a4; }
+.p-item-contrib[data-division="humanities"] { --div: #e6c47e; }
+
+.p-item-contrib__hero { position: relative; display: grid; gap: var(--space-4); align-items: center; padding: var(--space-4) 0 var(--space-5); border-bottom: 1px solid var(--c-line); }
+@media (min-width: 900px) { .p-item-contrib__hero { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); } }
+.p-item-contrib__kicker { margin: 0 0 var(--space-1); color: var(--c-accent); letter-spacing: .25em; font-size: var(--fs-small); }
+.p-item-contrib__title { font-size: clamp(2rem, 4.4vw, 3.4rem); line-height: 1.25; margin: 0 0 var(--space-2); }
+.p-item-contrib__div { display: inline-flex; align-items: center; gap: 8px; margin: 0 0 var(--space-3); padding: 4px 14px; border-radius: 999px; border: 1px solid var(--c-line); font-size: .95rem; }
+.p-item-contrib__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--div); box-shadow: 0 0 0 4px color-mix(in srgb, var(--div) 25%, transparent); }
+.p-item-contrib__lead { margin: 0; max-width: 32em; font-family: var(--font-serif); font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.75; color: #e6ebf2; }
+
+/* 右邊：標本卡（學組圖示、大編號、/ 100、學組名稱） */
+.p-item-contrib__art { display: flex; justify-content: center; }
+@media (min-width: 900px) { .p-item-contrib__art { justify-content: flex-end; } }
+.p-item-contrib__tag { position: relative; display: flex; flex-direction: column; width: 280px; aspect-ratio: 4 / 5; padding: 26px 28px; border-radius: 18px; overflow: hidden;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--div) 18%, #101a2c), #0c1424 65%);
+  border: 1px solid color-mix(in srgb, var(--div) 45%, transparent); box-shadow: 0 30px 60px rgba(0, 0, 0, .45); }
+.p-item-contrib__tag::after { content: ""; position: absolute; right: -60px; top: -60px; width: 200px; height: 200px; border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--div) 35%, transparent), transparent 70%); }
+.p-item-contrib__tag-icon img { width: 52px; height: 52px; filter: brightness(0) invert(1); opacity: .9; }
+.p-item-contrib__tag-label { margin-top: auto; font-size: .85rem; letter-spacing: .3em; color: var(--c-ink-soft); }
+.p-item-contrib__num { font-family: var(--font-serif); font-size: 5.2rem; line-height: 1; color: var(--div); font-variant-numeric: lining-nums tabular-nums; }
+.p-item-contrib__num small { font-size: 1.1rem; color: var(--c-ink-soft); letter-spacing: .05em; }
+.p-item-contrib__tag-div { margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255, 255, 255, .14); font-size: .95rem; letter-spacing: .1em; }
+@media (max-width: 899px) { .p-item-contrib__art { order: -1; } .p-item-contrib__tag { width: 100%; aspect-ratio: auto; flex-direction: row; align-items: center; gap: 16px; padding: 18px 20px; }
+  .p-item-contrib__tag-label { margin: 0 0 0 auto; } .p-item-contrib__num { font-size: 2.8rem; } .p-item-contrib__tag-div { display: none; } }
+
+/* 內文＋資訊卡 */
+.p-item-contrib__grid { display: grid; gap: var(--space-4); padding: var(--space-5) 0; }
+@media (min-width: 900px) { .p-item-contrib__grid { grid-template-columns: minmax(0, 1fr) 300px; align-items: start; } }
+.p-item-contrib__main .c-article__body { font-size: 1.12rem; line-height: 2; max-width: 40em; }
+.p-item-contrib__aside { position: sticky; top: calc(var(--header-h) + 24px); padding: var(--space-3); border-radius: 14px; border: 1px solid var(--c-line); background: rgba(255, 255, 255, .03); }
+.p-item-contrib__facts { margin: 0 0 var(--space-3); }
+.p-item-contrib__facts > div { padding: 10px 0; border-bottom: 1px solid var(--c-line); }
+.p-item-contrib__facts dt { font-size: var(--fs-small); color: var(--c-ink-soft); letter-spacing: .08em; }
+.p-item-contrib__facts dd { margin: 4px 0 0; }
+
+/* 同學組的其他貢獻 */
+.p-item-contrib__section { padding: var(--space-4) 0; border-top: 1px solid var(--c-line); }
+.p-item-contrib__section h2 { font-size: 1.4rem; margin-bottom: var(--space-3); }
+.p-item-contrib__more { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+.p-item-contrib__card { position: relative; display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 20px 22px 22px; border-radius: 14px; border: 1px solid var(--c-line);
+  background: linear-gradient(160deg, rgba(255, 255, 255, .05), rgba(255, 255, 255, .01)); color: var(--c-ink); text-decoration: none; overflow: hidden; transition: border-color .3s var(--ease), transform .3s var(--ease); }
+.p-item-contrib__card:hover, .p-item-contrib__card:focus-visible { border-color: var(--div); transform: translateY(-3px); }
+.p-item-contrib__card-no { color: var(--c-accent); font-size: var(--fs-small); letter-spacing: .15em; }
+.p-item-contrib__card-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; }
+.p-item-contrib__card-sum { color: var(--c-ink-soft); font-size: .95rem; padding-right: 48px; }
+.p-item-contrib__card-icon { position: absolute; right: 14px; bottom: 12px; opacity: .3; }
+.p-item-contrib__card-icon img { width: 40px; height: 40px; filter: brightness(0) invert(1); }
+
+/* 上一項／下一項 */
+.p-item-contrib__pager { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); padding: var(--space-3) 0 var(--space-2); border-top: 1px solid var(--c-line); }
+.p-item-contrib__pager a { display: flex; flex-direction: column; gap: 4px; padding: 14px 0; color: var(--c-ink); text-decoration: none; }
+.p-item-contrib__pager a[rel="next"] { text-align: right; }
+.p-item-contrib__pager a:hover span:last-child { text-decoration: underline; text-decoration-color: var(--c-accent); }
+.p-item-contrib__main .c-article__body h3 { display: flex; align-items: center; gap: 10px; margin: var(--space-3) 0 6px; font-size: 1.25rem; }
+.p-item-contrib__main .c-article__body h3:first-child { margin-top: 0; }
+.p-item-contrib__main .c-article__body h3::before { content: ""; width: 18px; height: 2px; background: var(--div); }

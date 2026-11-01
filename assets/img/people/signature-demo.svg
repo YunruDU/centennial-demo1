@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" width="320" height="110" role="img" aria-label="示意簽名">
+  <!-- 示意簽名：抽象的手寫筆跡，看不出任何真實姓名 -->
+  <g fill="none" stroke="#e9d3a0" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 70 C30 30 52 22 58 40 C64 58 40 82 34 74 C28 66 62 44 80 48 C98 52 84 80 96 78 C110 76 112 40 126 42 C140 44 128 76 142 74 C156 72 160 46 176 50" stroke-width="4.2"/>
+    <path d="M176 50 C190 54 186 78 200 74 C216 70 214 36 232 34 C250 32 236 70 252 72 C268 74 276 56 300 52" stroke-width="3.6"/>
+    <path d="M40 92 C110 84 200 86 290 80" stroke-width="2.4" opacity=".75"/>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": {
+        "zh": "ACADEMIA SINICA · 1928 — 2028",
+        "en": "ACADEMIA SINICA · 1928 — 2028"
+      },
+      "title": {
+        "zh": "百年中研\n迎向下一個世紀",
+        "en": "A Century of Inquiry,\nInto the Next"
+      },
+      "lead": {
+        "zh": "1928 年 6 月 9 日創立於南京，2028 年 6 月 9 日迎接創院百年。",
+        "en": "Founded in Nanjing on 9 June 1928, Academia Sinica turns 100 on 9 June 2028."
+      },
+      "note": {
+        "zh": "＊標語為示意",
+        "en": "*Placeholder tagline"
+      },
+      "ctas": [
+        {
+          "label": {
+            "zh": "認識系列活動",
+            "en": "Explore the events"
+          },
+          "href": "events.html"
+        },
+        {
+          "label": {
+            "zh": "走進百年大事記",
+            "en": "Walk through the chronicle"
+          },
+          "href": "chronicle.html"
+        }
+      ],
+      "mark_recent": [
+        "assets/img/photos/lab.jpg",
+        "assets/img/photos/lecture-hall.jpg",
+        "assets/img/photos/campus-lawn.jpg",
+        "assets/img/photos/campus-aerial.jpg"
+      ],
+      "mark_caption": {
+        "zh": "一百年的影像，拼成一個 100",
+        "en": "A hundred years of images, forming one 100"
+      }
+    },
+    {
+      "type": "video",
+      "title": {
+        "zh": "形象影片",
+        "en": "Feature video"
+      },
+      "heading": {
+        "zh": "一百年，這裡從未停止提問",
+        "en": "A hundred years of asking questions"
+      },
+      "text": {
+        "zh": "從南京到南港，從一間庫房到三大學組與數十個研究所及中心。院慶形象影片製作中，以下先連到本院公開的簡介影片。",
+        "en": "From Nanjing to Nangang, from a single warehouse to three divisions and dozens of institutes. The anniversary film is in production; below is the public introduction video."
+      },
+      "poster": {
+        "src": "assets/img/photos/lecture-hall.jpg",
+        "alt": {
+          "zh": "演講廳內，講者站在講台前，螢幕上是歷任院長照片",
+          "en": "A speaker at the podium in a lecture hall, with portraits of past presidents on screen"
+        },
+        "width": 1200,
+        "height": 800
+      },
+      "url": "https://www.youtube.com/watch?v=QBqknUQoz4s"
+    },
+    {
+      "type": "contributions",
+      "title": {
+        "zh": "百大貢獻",
+        "en": "100 Contributions"
+      },
+      "heading": {
+        "zh": "一百項改變臺灣的研究時刻",
+        "en": "100 moments of research that changed Taiwan"
+      },
+      "limit": 6
+    },
+    {
+      "type": "news",
+      "title": {
+        "zh": "最新消息",
+        "en": "News"
+      },
+      "heading": {
+        "zh": "院慶動態",
+        "en": "Latest updates"
+      },
+      "limit": 4
+    },
+    {
+      "type": "events",
+      "title": {
+        "zh": "近期活動",
+        "en": "Upcoming events"
+      },
+      "heading": {
+        "zh": "和我們一起走完這一百年",
+        "en": "Join us for the centennial year"
+      },
+      "limit": 3
+    }
+  ]
+}

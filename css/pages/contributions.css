@@ -1,0 +1,4 @@
+/* 百大貢獻（WP4） */
+.p-contrib-intro { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) var(--space-3); margin-bottom: var(--space-3); }
+.p-contrib-intro__num { margin: 0; font-family: var(--font-serif); font-weight: 700; font-size: clamp(4rem, 12vw, 8rem); line-height: 1; color: var(--c-ink); letter-spacing: -.02em; }
+.p-contrib-intro__text { margin: 0; max-width: 30em; }

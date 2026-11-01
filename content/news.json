@@ -1,0 +1,92 @@
+[
+  {
+    "id": "n01",
+    "date": "2027-01-15",
+    "title": {
+      "zh": "（示意）院慶網站正式上線",
+      "en": "(Demo) Centennial website launched"
+    },
+    "summary": {
+      "zh": "院慶網站上線，提供活動、大事記與百大貢獻等內容。",
+      "en": "The centennial website is live with events, chronicle and contributions."
+    },
+    "body": {
+      "zh": "<p>院慶網站上線，提供活動、大事記與百大貢獻等內容。</p><p>（示意內文。）</p>",
+      "en": "<p>The centennial website is live with events, chronicle and contributions.</p><p>(Placeholder text.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/photos/campus-aerial.jpg",
+        "alt": {
+          "zh": "南港院區空拍",
+          "en": "Aerial view of the Nangang campus"
+        },
+        "width": 1600,
+        "height": 578
+      }
+    ],
+    "video": null,
+    "links": [],
+    "tags": []
+  },
+  {
+    "id": "n02",
+    "date": "2027-02-20",
+    "title": {
+      "zh": "（示意）百年院慶標語徵選結果公布",
+      "en": "(Demo) Slogan contest results announced"
+    },
+    "summary": {
+      "zh": "感謝各界參與，得獎作品將運用於院慶文宣。",
+      "en": "Winning entries will be used across anniversary materials."
+    },
+    "body": {
+      "zh": "<p>感謝各界參與，得獎作品將運用於院慶文宣。</p><p>（示意內文。）</p>",
+      "en": "<p>Winning entries will be used across anniversary materials.</p><p>(Placeholder text.)</p>"
+    },
+    "images": [],
+    "video": null,
+    "links": [],
+    "tags": []
+  },
+  {
+    "id": "n03",
+    "date": "2027-03-12",
+    "title": {
+      "zh": "（示意）院慶系列講座開跑",
+      "en": "(Demo) Centennial lecture series begins"
+    },
+    "summary": {
+      "zh": "邀請各領域研究人員，分享百年來的研究故事。",
+      "en": "Researchers share stories from a century of discovery."
+    },
+    "body": {
+      "zh": "<p>邀請各領域研究人員，分享百年來的研究故事。</p><p>（示意內文。）</p>",
+      "en": ""
+    },
+    "images": [],
+    "video": null,
+    "links": [],
+    "tags": []
+  },
+  {
+    "id": "n04",
+    "date": "2027-04-08",
+    "title": {
+      "zh": "（示意）院史照片徵集活動",
+      "en": "(Demo) Call for historical photos"
+    },
+    "summary": {
+      "zh": "歡迎同仁與院友提供珍藏的院區老照片。",
+      "en": "Staff and alumni are invited to share old campus photos."
+    },
+    "body": {
+      "zh": "<p>歡迎同仁與院友提供珍藏的院區老照片。</p><p>（示意內文。）</p>",
+      "en": "<p>Staff and alumni are invited to share old campus photos.</p><p>(Placeholder text.)</p>"
+    },
+    "images": [],
+    "video": null,
+    "links": [],
+    "tags": []
+  }
+]

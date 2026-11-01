@@ -1,0 +1,567 @@
+[
+  {
+    "id": "tee",
+    "kind": "apparel",
+    "name": {
+      "zh": "（示意）百年紀念 T 恤",
+      "en": "(Demo) Centennial T-shirt"
+    },
+    "price_note": {
+      "zh": "NT$ 450（示意）",
+      "en": "NT$ 450 (demo)"
+    },
+    "summary": {
+      "zh": "正面百年標誌、背面 1928–2028，白色與深藍兩款。",
+      "en": "Emblem on the front, 1928–2028 on the back, in white or navy."
+    },
+    "desc": {
+      "zh": "以百年院慶標誌為主角：白色款用深藍線條、深藍款用白色線條，金色緞帶兩款都保留。背面印上 1928–2028 與院名，穿去院區開放剛剛好。",
+      "en": "Built around the centennial emblem: navy lines on the white tee, white lines on the navy tee, with the gold ribbon on both. The back reads 1928–2028."
+    },
+    "variants": [
+      {
+        "key": "white",
+        "label": {
+          "zh": "白色",
+          "en": "White"
+        },
+        "swatch": "#fbfaf7",
+        "views": [
+          {
+            "src": "assets/img/gifts/tee-white-front.svg",
+            "alt": {
+              "zh": "白色 T 恤正面",
+              "en": "White tee, front"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/tee-white-back.svg",
+            "alt": {
+              "zh": "白色 T 恤背面",
+              "en": "White tee, back"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "key": "navy",
+        "label": {
+          "zh": "深藍",
+          "en": "Navy"
+        },
+        "swatch": "#1d2b4a",
+        "views": [
+          {
+            "src": "assets/img/gifts/tee-navy-front.svg",
+            "alt": {
+              "zh": "深藍 T 恤正面",
+              "en": "Navy tee, front"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/tee-navy-back.svg",
+            "alt": {
+              "zh": "深藍 T 恤背面",
+              "en": "Navy tee, back"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ],
+    "view_labels": [
+      {
+        "zh": "正面",
+        "en": "Front"
+      },
+      {
+        "zh": "背面",
+        "en": "Back"
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "chest": 48,
+        "length": 68
+      },
+      {
+        "size": "M",
+        "chest": 51,
+        "length": 71
+      },
+      {
+        "size": "L",
+        "chest": 54,
+        "length": 74
+      },
+      {
+        "size": "XL",
+        "chest": 57,
+        "length": 77
+      }
+    ],
+    "specs": [
+      [
+        {
+          "zh": "材質",
+          "en": "Material"
+        },
+        {
+          "zh": "精梳棉 100%（示意）",
+          "en": "100% combed cotton (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "印刷",
+          "en": "Print"
+        },
+        {
+          "zh": "正面標誌、背面年份與院名",
+          "en": "Emblem front, years and name back"
+        }
+      ],
+      [
+        {
+          "zh": "尺寸",
+          "en": "Sizes"
+        },
+        {
+          "zh": "S／M／L／XL",
+          "en": "S / M / L / XL"
+        }
+      ]
+    ],
+    "where_to_buy": {
+      "zh": "（示意）院區遊客中心、百年院慶活動現場",
+      "en": "(Demo) Campus visitor center and centennial events"
+    }
+  },
+  {
+    "id": "towel",
+    "name": {
+      "zh": "（示意）百年紀念毛巾",
+      "en": "(Demo) Centennial towel"
+    },
+    "price_note": {
+      "zh": "NT$ 280（示意）",
+      "en": "NT$ 280 (demo)"
+    },
+    "summary": {
+      "zh": "深藍與白色兩款，兩端金色條紋，中間百年標誌。",
+      "en": "Navy or white, gold stripes at both ends, emblem in the middle."
+    },
+    "desc": {
+      "zh": "兩種配色剛好對應兩種標誌：深藍毛巾配白線標誌，白毛巾配深藍線標誌。兩端的金色條紋呼應標誌上的緞帶。",
+      "en": "Each colour carries its matching emblem: white lines on navy, navy lines on white. The gold stripes echo the ribbon."
+    },
+    "variants": [
+      {
+        "key": "navy",
+        "label": {
+          "zh": "深藍",
+          "en": "Navy"
+        },
+        "swatch": "#1d2b4a",
+        "views": [
+          {
+            "src": "assets/img/gifts/towel-navy-folded.svg",
+            "alt": {
+              "zh": "深藍毛巾摺疊",
+              "en": "Navy towel, folded"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/towel-navy-open.svg",
+            "alt": {
+              "zh": "深藍毛巾攤開",
+              "en": "Navy towel, open"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "key": "white",
+        "label": {
+          "zh": "白色",
+          "en": "White"
+        },
+        "swatch": "#fbfaf7",
+        "views": [
+          {
+            "src": "assets/img/gifts/towel-white-folded.svg",
+            "alt": {
+              "zh": "白色毛巾摺疊",
+              "en": "White towel, folded"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/towel-white-open.svg",
+            "alt": {
+              "zh": "白色毛巾攤開",
+              "en": "White towel, open"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ],
+    "view_labels": [
+      {
+        "zh": "摺疊",
+        "en": "Folded"
+      },
+      {
+        "zh": "攤開",
+        "en": "Open"
+      }
+    ],
+    "specs": [
+      [
+        {
+          "zh": "尺寸",
+          "en": "Size"
+        },
+        {
+          "zh": "34 × 80 cm（示意）",
+          "en": "34 × 80 cm (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "材質",
+          "en": "Material"
+        },
+        {
+          "zh": "純棉毛圈（示意）",
+          "en": "Cotton terry (demo)"
+        }
+      ]
+    ],
+    "where_to_buy": {
+      "zh": "（示意）院區遊客中心、百年院慶活動現場",
+      "en": "(Demo) Campus visitor center and centennial events"
+    }
+  },
+  {
+    "id": "tote",
+    "name": {
+      "zh": "（示意）百年帆布小布包",
+      "en": "(Demo) Centennial tote"
+    },
+    "price_note": {
+      "zh": "NT$ 350（示意）",
+      "en": "NT$ 350 (demo)"
+    },
+    "summary": {
+      "zh": "深藍款配金色提把、白色款配深藍提把，A4 放得下。",
+      "en": "Navy with gold handles or white with navy handles; fits A4."
+    },
+    "desc": {
+      "zh": "厚帆布、大小剛好裝下 A4 文件與一瓶水。深藍款用白線標誌、金色提把；白色款用深藍線標誌與深藍提把。",
+      "en": "Sturdy canvas that fits A4 papers and a bottle. Navy has a white-line emblem and gold handles; white has navy."
+    },
+    "variants": [
+      {
+        "key": "navy",
+        "label": {
+          "zh": "深藍",
+          "en": "Navy"
+        },
+        "swatch": "#1d2b4a",
+        "views": [
+          {
+            "src": "assets/img/gifts/tote-navy-front.svg",
+            "alt": {
+              "zh": "深藍小布包正面",
+              "en": "Navy tote, front"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/tote-navy-size.svg",
+            "alt": {
+              "zh": "深藍小布包尺寸",
+              "en": "Navy tote, size"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "key": "white",
+        "label": {
+          "zh": "白色",
+          "en": "White"
+        },
+        "swatch": "#fbfaf7",
+        "views": [
+          {
+            "src": "assets/img/gifts/tote-white-front.svg",
+            "alt": {
+              "zh": "白色小布包正面",
+              "en": "White tote, front"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/tote-white-size.svg",
+            "alt": {
+              "zh": "白色小布包尺寸",
+              "en": "White tote, size"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ],
+    "view_labels": [
+      {
+        "zh": "正面",
+        "en": "Front"
+      },
+      {
+        "zh": "尺寸",
+        "en": "Size"
+      }
+    ],
+    "specs": [
+      [
+        {
+          "zh": "尺寸",
+          "en": "Size"
+        },
+        {
+          "zh": "寬 38 × 高 42 cm，提把 60 cm（示意）",
+          "en": "38 × 42 cm, 60 cm handles (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "材質",
+          "en": "Material"
+        },
+        {
+          "zh": "12 oz 帆布（示意）",
+          "en": "12 oz canvas (demo)"
+        }
+      ]
+    ],
+    "where_to_buy": {
+      "zh": "（示意）院區遊客中心、百年院慶活動現場",
+      "en": "(Demo) Campus visitor center and centennial events"
+    }
+  },
+  {
+    "id": "pen",
+    "name": {
+      "zh": "（示意）百年紀念筆",
+      "en": "(Demo) Centennial pen"
+    },
+    "price_note": {
+      "zh": "NT$ 600（示意）",
+      "en": "NT$ 600 (demo)"
+    },
+    "summary": {
+      "zh": "深藍筆身、金色筆夾，雷射刻上院名與 1928–2028。",
+      "en": "Navy barrel, gold clip, engraved with the name and 1928–2028."
+    },
+    "desc": {
+      "zh": "適合送給演講者與來賓的正式禮品。筆身刻字、附白色標誌禮盒。",
+      "en": "A formal gift for speakers and guests, engraved and boxed."
+    },
+    "variants": [
+      {
+        "key": "navy",
+        "label": {
+          "zh": "深藍",
+          "en": "Navy"
+        },
+        "swatch": "#1b2c4f",
+        "views": [
+          {
+            "src": "assets/img/gifts/pen-full.svg",
+            "alt": {
+              "zh": "紀念筆全貌",
+              "en": "Pen"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/pen-engrave.svg",
+            "alt": {
+              "zh": "筆身刻字特寫",
+              "en": "Engraving close-up"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/pen-box.svg",
+            "alt": {
+              "zh": "紀念筆禮盒",
+              "en": "Gift box"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ],
+    "view_labels": [
+      {
+        "zh": "全貌",
+        "en": "Pen"
+      },
+      {
+        "zh": "刻字",
+        "en": "Engraving"
+      },
+      {
+        "zh": "禮盒",
+        "en": "Gift box"
+      }
+    ],
+    "specs": [
+      [
+        {
+          "zh": "筆款",
+          "en": "Type"
+        },
+        {
+          "zh": "中性筆，0.5 mm 黑色（示意）",
+          "en": "Gel pen, 0.5 mm black (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "包裝",
+          "en": "Packaging"
+        },
+        {
+          "zh": "標誌禮盒",
+          "en": "Emblem gift box"
+        }
+      ]
+    ],
+    "where_to_buy": {
+      "zh": "（示意）院區遊客中心、百年院慶活動現場",
+      "en": "(Demo) Campus visitor center and centennial events"
+    }
+  },
+  {
+    "id": "blocks",
+    "name": {
+      "zh": "（示意）百年積木・100",
+      "en": "(Demo) Centennial bricks · 100"
+    },
+    "price_note": {
+      "zh": "NT$ 880（示意）",
+      "en": "NT$ 880 (demo)"
+    },
+    "summary": {
+      "zh": "用積木蓋出「100」：深藍底板、白色數字、金色頂邊，附年份牌。",
+      "en": "Build “100”: navy baseplate, white digits, gold tops, with a year plaque."
+    },
+    "desc": {
+      "zh": "把一百年蓋在桌上。深藍底板代表院徽的藍，金色頂邊呼應標誌的緞帶，正面貼上 1928–2028 年份牌。拆開也能自由組合，親子一起動手。",
+      "en": "Put a century on your desk. Navy for the emblem, gold for the ribbon, a 1928–2028 plaque in front. Free-build friendly for families."
+    },
+    "variants": [
+      {
+        "key": "main",
+        "label": {
+          "zh": "標準版",
+          "en": "Standard"
+        },
+        "swatch": "#22385f",
+        "views": [
+          {
+            "src": "assets/img/gifts/blocks-built.svg",
+            "alt": {
+              "zh": "積木組裝完成",
+              "en": "Assembled"
+            },
+            "width": 800,
+            "height": 800
+          },
+          {
+            "src": "assets/img/gifts/blocks-exploded.svg",
+            "alt": {
+              "zh": "積木拆解示意",
+              "en": "Exploded view"
+            },
+            "width": 800,
+            "height": 800
+          }
+        ]
+      }
+    ],
+    "view_labels": [
+      {
+        "zh": "組裝完成",
+        "en": "Assembled"
+      },
+      {
+        "zh": "零件拆解",
+        "en": "Parts"
+      }
+    ],
+    "specs": [
+      [
+        {
+          "zh": "顆數",
+          "en": "Pieces"
+        },
+        {
+          "zh": "約 87 顆（示意）",
+          "en": "About 87 pieces (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "完成尺寸",
+          "en": "Built size"
+        },
+        {
+          "zh": "約 19 × 6 × 9 cm（示意）",
+          "en": "About 19 × 6 × 9 cm (demo)"
+        }
+      ],
+      [
+        {
+          "zh": "適用年齡",
+          "en": "Age"
+        },
+        {
+          "zh": "8 歲以上（示意）",
+          "en": "8+ (demo)"
+        }
+      ]
+    ],
+    "where_to_buy": {
+      "zh": "（示意）院區遊客中心、百年院慶活動現場",
+      "en": "(Demo) Campus visitor center and centennial events"
+    }
+  }
+]

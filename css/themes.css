@@ -1,0 +1,168 @@
+/* 第一階段：3 款風格提案。同一套 HTML，只換設計變數與少數版面規則。
+   <html data-style="a|b|c">；選定一款後，把那款的變數併回 tokens.css，刪掉這支檔案。 */
+
+/* ---------- A 百年典藏：紙本、襯線、酒紅與金，歷史照片裝框 ---------- */
+:root[data-style="a"], :root:not([data-style]) {
+  --c-primary: #7a1f2b;
+  --c-primary-ink: #ffffff;
+  --c-primary-soft: #f1e4df;
+  --c-accent: #84601d;
+  --c-accent-soft: #f3ead6;
+  --c-ink: #2a2420;
+  --c-ink-soft: #5c5249;
+  --c-bg: #f6f1e7;
+  --c-surface: #fffdf8;
+  --c-line: #d9ccb4;
+  --c-footer-bg: #2a2420;
+  --c-footer-ink: #efe8db;
+  --font-heading: var(--font-serif);
+  --radius: 2px;
+  --hero-overlay: none;
+}
+
+/* ---------- B 現代學術：白底、無襯線、深藍綠，大字排版 ---------- */
+:root[data-style="b"] {
+  --c-primary: #0b4f6c;
+  --c-primary-ink: #ffffff;
+  --c-primary-soft: #e3eff4;
+  --c-accent: #a8430f;
+  --c-accent-soft: #fbeee6;
+  --c-ink: #14181f;
+  --c-ink-soft: #4a5260;
+  --c-bg: #ffffff;
+  --c-surface: #f4f6f9;
+  --c-line: #dde2e8;
+  --c-footer-bg: #0b2532;
+  --c-footer-ink: #e6eef2;
+  --font-heading: var(--font-sans);
+  --radius: 12px;
+}
+
+/* ---------- C 沉浸夜色（已選定）：午夜藍＋白色為主，金色只當點綴（細線、小標、長刻度） ---------- */
+:root[data-style="c"] {
+  --c-primary: #ffffff;
+  --c-primary-ink: #0a1220;
+  --c-primary-soft: rgba(255, 255, 255, .08);
+  --c-accent: #d4b06a;
+  --c-accent-soft: rgba(220, 185, 111, .14);
+  --c-ink: #f6f8fb;
+  --c-ink-soft: #b3bccb;
+  --c-bg: #0a1220;
+  --c-bg-2: #0e1828;
+  --c-surface: #111c2c;
+  --c-glass: linear-gradient(180deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .018));
+  --c-line: rgba(255, 255, 255, .14);
+  --c-line-strong: rgba(255, 255, 255, .45);
+  --c-gold-line: rgba(212, 176, 106, .7);
+  --c-gold-grad: linear-gradient(180deg, #fbefcc 0%, #e6c47e 48%, #b88a3e 100%);
+  --c-focus: #9cc3ff;
+  --c-footer-bg: #060c16;
+  --c-footer-ink: #d9dee7;
+  --c-overlay: rgba(4, 8, 16, .86);
+  --font-heading: var(--font-serif);
+  --radius: 3px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, .04) inset, 0 18px 50px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+/* 背景：不是死黑，而是午夜藍＋金色與藍色的柔光＋細微顆粒 */
+:root[data-style="c"] body {
+  background:
+    radial-gradient(1100px 700px at 85% -5%, rgba(220, 185, 111, .10), transparent 60%),
+    radial-gradient(900px 700px at -10% 35%, rgba(64, 112, 176, .14), transparent 60%),
+    radial-gradient(900px 600px at 110% 80%, rgba(64, 112, 176, .10), transparent 60%),
+    var(--c-bg);
+}
+:root[data-style="c"] body::before {
+  content: ""; position: fixed; inset: 0; z-index: 9999; pointer-events: none; opacity: .06; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+:root[data-style="c"] ::selection { background: rgba(220, 185, 111, .35); color: #fff; }
+
+/* 頁首：半透明午夜藍＋金色細線 */
+:root[data-style="c"] .c-header { background: rgba(10, 18, 32, .78); backdrop-filter: blur(10px) saturate(1.2); border-bottom: 1px solid var(--c-line); }
+:root[data-style="c"] .c-header__lang, :root[data-style="c"] .c-header__menu-btn { background: transparent; border-color: var(--c-line-strong); color: var(--c-ink); }
+:root[data-style="c"] .c-nav__link[aria-current="page"] { color: #fff; border-bottom-color: var(--c-accent); }
+:root[data-style="c"] .c-demo-badge { background: transparent; border: 1px solid var(--c-line-strong); color: var(--c-ink); }
+
+/* 按鈕：金色漸層、外框金線 */
+:root[data-style="c"] .c-btn { background: #fff; border-color: #fff; color: var(--c-primary-ink); box-shadow: 0 10px 30px rgba(0, 0, 0, .25); transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), background var(--dur) var(--ease); }
+:root[data-style="c"] .c-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(0, 0, 0, .35), 0 0 0 1px var(--c-gold-line); }
+:root[data-style="c"] .c-btn--ghost { background: rgba(10, 18, 32, .3); color: #fff; border-color: var(--c-line-strong); box-shadow: none; backdrop-filter: blur(4px); }
+:root[data-style="c"] .c-btn--ghost:hover { background: rgba(255, 255, 255, .08); border-color: #fff; }
+
+/* 卡片：玻璃質感、金線、滑過上浮 */
+:root[data-style="c"] .c-card { background: var(--c-glass); border-color: var(--c-line); transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+:root[data-style="c"] .c-card:hover { transform: translateY(-4px); border-color: var(--c-gold-line); box-shadow: var(--shadow); }
+:root[data-style="c"] .c-card__media { position: relative; overflow: hidden; background: #0f1a2a; }
+:root[data-style="c"] .c-card__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(10, 18, 32, .55)); }
+:root[data-style="c"] .c-card__media img { transition: transform .8s var(--ease); }
+:root[data-style="c"] .c-card:hover .c-card__media img { transform: scale(1.05); }
+:root[data-style="c"] .c-card__meta { color: var(--c-ink-soft); letter-spacing: .06em; }
+:root[data-style="c"] .c-tag { background: transparent; border: 1px solid var(--c-line-strong); color: var(--c-ink); }
+:root[data-style="c"] .c-modal__dialog { background: var(--c-surface); border-color: var(--c-line); }
+:root[data-style="c"] .c-more { color: var(--c-ink); text-decoration: none; border-bottom: 1px solid var(--c-gold-line); padding-bottom: 2px; }
+:root[data-style="c"] .c-more:hover { border-bottom-color: currentColor; }
+
+/* 頁尾：大字浮水印 1928 — 2028 */
+:root[data-style="c"] .c-footer { position: relative; overflow: hidden; border-top: 1px solid var(--c-line); }
+:root[data-style="c"] .c-footer::before {
+  content: "1928 — 2028"; position: absolute; right: -2vw; bottom: -.18em; font-family: var(--font-serif); font-weight: 700;
+  font-size: clamp(4rem, 14vw, 13rem); line-height: 1; letter-spacing: .02em; color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, .09); pointer-events: none; white-space: nowrap;
+}
+:root[data-style="c"] .c-footer .l-container { position: relative; }
+:root[data-style="c"] .c-footer__social a { border-color: var(--c-line-strong); }
+
+/* 標題字型跟著風格走 */
+h1, h2 { font-family: var(--font-heading, var(--font-serif)); }
+:root[data-style="b"] h1, :root[data-style="b"] h2 { letter-spacing: -.01em; font-weight: 800; }
+
+/* A：頁首底部金線、卡片細框雙線 */
+:root[data-style="a"] .c-header, :root:not([data-style]) .c-header { border-bottom: 3px double var(--c-accent); }
+:root[data-style="a"] .c-card, :root:not([data-style]) .c-card { box-shadow: inset 0 0 0 4px var(--c-surface), inset 0 0 0 5px var(--c-line); }
+
+/* B：卡片無框、圓角、陰影 */
+:root[data-style="b"] .c-card { border-color: transparent; box-shadow: var(--shadow); }
+:root[data-style="b"] .c-header { border-bottom-color: transparent; box-shadow: 0 1px 0 var(--c-line); }
+
+
+/* ---------- 風格切換面板（第一階段審稿用） ---------- */
+.c-style-switch {
+  position: fixed; right: var(--space-2); bottom: var(--space-2); z-index: 400;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: flex-end;
+  max-width: calc(100vw - 2 * var(--space-2));
+  padding: 8px 10px; border-radius: 999px; background: #1f1f1f; color: #fff; box-shadow: var(--shadow);
+  font-size: var(--fs-small);
+}
+.c-style-switch__label { font-weight: 700; padding-inline: 4px; }
+.c-style-switch button {
+  min-height: 36px; padding: 4px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.45);
+  background: transparent; color: #fff; white-space: nowrap;
+}
+.c-style-switch button[aria-pressed="true"] { background: #fff; color: #1f1f1f; border-color: #fff; font-weight: 700; }
+.c-style-switch button:focus-visible { outline-color: #8ab8ff; }
+@media (max-width: 767px) {
+  .c-style-switch { left: var(--space-1); right: var(--space-1); bottom: var(--space-1); border-radius: var(--radius); justify-content: center; }
+  .c-style-switch__label { flex-basis: 100%; text-align: center; }
+  body.has-style-switch { padding-bottom: 96px; }
+}
+@media (min-width: 768px) { body.has-style-switch { padding-bottom: 64px; } }
+
+/* C：分頁裡的白色區塊（.c-light）——按鈕、卡片、表單改回深色字 */
+:root[data-style="c"] .c-light .c-btn { background: #0a1220; border-color: #0a1220; color: #fff; box-shadow: none; }
+:root[data-style="c"] .c-light .c-btn--ghost { background: transparent; color: #0a1220; border-color: rgba(10, 18, 32, .35); backdrop-filter: none; }
+:root[data-style="c"] .c-light .c-btn--ghost:hover { border-color: #0a1220; background: rgba(10, 18, 32, .04); }
+:root[data-style="c"] .c-light .c-card { background: #fff; border-color: transparent; box-shadow: 0 1px 2px rgba(10, 18, 32, .06), 0 10px 30px rgba(10, 18, 32, .08); }
+:root[data-style="c"] .c-light .c-card:hover { border-color: var(--c-gold-line); box-shadow: 0 2px 4px rgba(10, 18, 32, .08), 0 18px 44px rgba(10, 18, 32, .14); }
+:root[data-style="c"] .c-light .c-card__media::after { display: none; }
+:root[data-style="c"] .c-light .c-card__meta { color: var(--c-ink-soft); }
+:root[data-style="c"] .c-light .c-filter { background: none; border-color: var(--c-line); }
+:root[data-style="c"] .c-light .c-more { color: var(--c-ink); }
+:root[data-style="c"] .c-light .c-tag { color: var(--c-ink); border-color: var(--c-line-strong); }
+:root[data-style="c"] .c-light :focus-visible, :root[data-style="c"] .c-light .c-card:focus-within { outline-color: #1a5fb4; }
+
+/* C：頁首一行、膠囊按鈕 */
+:root[data-style="c"] .c-nav__link[aria-current="page"] { border-bottom: 0; }
+:root[data-style="c"] .c-chip[aria-pressed="true"], :root[data-style="c"] .c-seg button[aria-pressed="true"] { background: #fff; color: #0a1220; border-color: #fff; }
+:root[data-style="c"] .c-light .c-chip[aria-pressed="true"], :root[data-style="c"] .c-light .c-seg button[aria-pressed="true"] { background: #0a1220; color: #fff; border-color: #0a1220; }
+@media (max-width: 1199px) { :root[data-style="c"] .c-nav { background: #0d1626; } }

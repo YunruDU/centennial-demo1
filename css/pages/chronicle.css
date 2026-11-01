@@ -1,0 +1,115 @@
+/* 百年大事記（WP3）：時光長廊 */
+.p-chronicle { padding-bottom: var(--space-5); }
+/* 標題區照片做成舊照片色調 */
+.p-chronicle-page .c-pagehead__bg img { filter: sepia(.7) contrast(1.05); }
+
+/* ---------- 年份軸 ---------- */
+.p-chronicle-rail { position: sticky; top: var(--header-h); z-index: 20; margin: 0 calc(-1 * var(--gutter)) var(--space-4); padding: 14px var(--gutter);
+  background: color-mix(in srgb, var(--c-bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--c-line); }
+.p-chronicle-rail__inner { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(180px, 240px); gap: var(--space-3); align-items: center; }
+.p-chronicle-rail__now { margin: 0; min-width: 4.2ch; }
+.p-chronicle-rail__now strong { font-family: var(--font-serif); font-size: 2.2rem; line-height: 1; color: var(--c-accent); font-variant-numeric: tabular-nums; }
+.p-chronicle-rail__track { position: relative; padding-top: 6px; }
+.p-chronicle-rail__track::before { content: ""; position: absolute; left: 0; right: 0; top: 6px; height: 3px; background: var(--c-line); border-radius: 3px; }
+.p-chronicle-rail__fill { position: absolute; left: 0; top: 6px; height: 3px; width: 1%; background: var(--c-accent); border-radius: 3px; transition: width .5s var(--ease); }
+.p-chronicle-rail__eras { list-style: none; margin: 0; padding: 0; display: flex; }
+.p-chronicle-rail__eras li { flex: 0 0 var(--w); min-width: 0; }
+.p-chronicle-rail__era { display: flex; flex-direction: column; gap: 2px; padding: 12px 8px 2px 0; color: var(--c-ink-soft); text-decoration: none; border-left: 1px solid var(--c-line); padding-left: 8px; position: relative; }
+.p-chronicle-rail__era::before { content: ""; position: absolute; left: -4px; top: -2px; width: 7px; height: 7px; border-radius: 50%; background: var(--c-bg); border: 1px solid var(--c-ink-soft); }
+.p-chronicle-rail__yrs { font-size: .78rem; letter-spacing: .06em; }
+.p-chronicle-rail__name { font-size: .9rem; line-height: 1.35; }
+.p-chronicle-rail__era:hover, .is-current > .p-chronicle-rail__era { color: var(--c-ink); }
+.is-current > .p-chronicle-rail__era::before { background: var(--c-accent); border-color: var(--c-accent); box-shadow: 0 0 0 4px rgba(212, 176, 106, .2); }
+.is-current .p-chronicle-rail__name { font-weight: 700; }
+.p-chronicle-rail__end { position: absolute; right: 0; top: 14px; font-size: .78rem; color: var(--c-ink-soft); }
+.p-chronicle-rail .c-filter { margin: 0; padding: 0; border: 0; flex-wrap: nowrap; }
+.p-chronicle-rail .c-filter__field { flex: 1; }
+.p-chronicle-rail .c-filter__field input { min-height: 38px; }
+.p-chronicle-rail .c-filter__count { display: none; }
+@media (max-width: 899px) {
+  .p-chronicle-rail { position: static; }
+  .p-chronicle-rail__inner { grid-template-columns: auto minmax(0, 1fr); }
+  .p-chronicle-rail .c-filter { grid-column: 1 / -1; }
+  .p-chronicle-rail__end { display: none; }
+}
+@media (max-width: 599px) { .p-chronicle-rail__name { display: none; } }
+
+/* ---------- 章節大標 ---------- */
+.p-chronicle-era { scroll-margin-top: calc(var(--header-h) + 110px); }
+.p-chronicle-era + .p-chronicle-era { margin-top: var(--space-5); }
+.p-chronicle-era__head { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-4); align-items: center;
+  margin-bottom: var(--space-4); padding: var(--space-5) var(--space-4); overflow: hidden; border-top: 1px solid var(--c-line); border-bottom: 1px solid var(--c-line); }
+/* 背景：這個時期的照片，舊照色調，從右邊淡入 */
+.p-chronicle-era__bg { position: absolute; inset: 0 0 0 35%; z-index: -1; pointer-events: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 55%); mask-image: linear-gradient(90deg, transparent, #000 55%); }
+.p-chronicle-era__bg img { width: 100%; height: 100%; object-fit: cover; filter: sepia(.6) brightness(.55) contrast(1.05); opacity: .45; }
+.p-chronicle-era__head { isolation: isolate; }
+/* 大章號 */
+.p-chronicle-era__no { margin: 0; padding-right: var(--space-4); border-right: 1px solid rgba(212, 176, 106, .45);
+  font-family: var(--font-serif); font-size: clamp(4.5rem, 10vw, 8rem); line-height: .85; font-variant-numeric: lining-nums;
+  background: linear-gradient(180deg, #f3dfb0, #b8924a); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.p-chronicle-era__kicker { margin: 0 0 var(--space-1); color: var(--c-accent); letter-spacing: .3em; font-size: var(--fs-small); }
+.p-chronicle-era__title { margin: 0 0 var(--space-2); font-size: clamp(1.4rem, 2.2vw, 1.75rem); line-height: 1.2; letter-spacing: .08em; }
+/* 這個時期的小時間軸：起年 ──●──●── 迄年 */
+.p-chronicle-era__span { display: flex; align-items: center; gap: 14px; max-width: 520px; margin-bottom: var(--space-2); font-family: var(--font-serif); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.p-chronicle-era__from, .p-chronicle-era__to { color: #fff; }
+.p-chronicle-era__line { position: relative; flex: 1; height: 1px; background: linear-gradient(90deg, var(--c-accent), rgba(212, 176, 106, .35)); }
+.p-chronicle-era__line i { position: absolute; top: 50%; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: var(--c-accent); box-shadow: 0 0 0 3px rgba(212, 176, 106, .18); }
+.p-chronicle-era__desc { margin: 0; max-width: 34em; color: #d5dce6; }
+@media (max-width: 767px) {
+  .p-chronicle-era__head { grid-template-columns: minmax(0, 1fr); gap: var(--space-2); padding: var(--space-4) 0; }
+  .p-chronicle-era__no { border: 0; padding: 0; font-size: 3.6rem; }
+  .p-chronicle-era__bg { inset: 0; -webkit-mask-image: linear-gradient(180deg, transparent, #000 70%); mask-image: linear-gradient(180deg, transparent, #000 70%); }
+}
+
+/* ---------- 事件：中線左右交錯 ---------- */
+.p-chronicle-list { list-style: none; margin: 0; padding: 0; position: relative; }
+.p-chronicle-list::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: linear-gradient(var(--c-line), rgba(212, 176, 106, .5), var(--c-line)); }
+.p-chronicle-ev { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 96px; align-items: center; padding: var(--space-4) 0; }
+.p-chronicle-ev::before { content: ""; position: absolute; left: 50%; top: 50%; width: 13px; height: 13px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--c-bg); border: 2px solid var(--c-accent); }
+.p-chronicle-ev.is-left .p-chronicle-photo { grid-column: 1; grid-row: 1; }
+.p-chronicle-ev.is-left .p-chronicle-ev__text { grid-column: 2; grid-row: 1; }
+.p-chronicle-ev.is-right .p-chronicle-photo { grid-column: 2; grid-row: 1; }
+.p-chronicle-ev.is-right .p-chronicle-ev__text { grid-column: 1; grid-row: 1; text-align: right; }
+.p-chronicle-ev.is-text.is-left .p-chronicle-ev__text { grid-column: 2; }
+.p-chronicle-ev.is-text.is-right .p-chronicle-ev__text { grid-column: 1; }
+
+/* 舊照片：白邊、微微傾斜、滑過回正 */
+.p-chronicle-photo { display: block; width: 100%; padding: 10px 10px 34px; border: 0; background: #efe9dc; cursor: zoom-in;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3), 0 22px 48px rgba(0, 0, 0, .5); transform: rotate(-1.2deg); transition: transform .45s var(--ease), box-shadow .45s var(--ease); }
+.is-right .p-chronicle-photo { transform: rotate(1.2deg); }
+.p-chronicle-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; filter: sepia(.25) contrast(1.02); }
+.p-chronicle-photo:hover { transform: rotate(0) scale(1.02); box-shadow: 0 4px 8px rgba(0, 0, 0, .3), 0 32px 64px rgba(0, 0, 0, .6); }
+
+.p-chronicle-ev__year { margin: 0; font-family: var(--font-serif); font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1; color: var(--c-accent); font-variant-numeric: tabular-nums; }
+.p-chronicle-ev__title { margin: var(--space-1) 0; font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.5; }
+.p-chronicle-ev__sum { margin: 0 0 var(--space-2); color: var(--c-ink-soft); }
+.p-chronicle-more { padding: 6px 0; border: 0; background: none; color: var(--c-ink); font: inherit; cursor: pointer; border-bottom: 1px solid var(--c-accent); }
+.p-chronicle-more::after { content: " →"; color: var(--c-accent); }
+.p-chronicle-more:hover { color: var(--c-accent); }
+
+/* 手機：線在左邊，一欄 */
+@media (max-width: 767px) {
+  .p-chronicle-list::before { left: 7px; }
+  .p-chronicle-ev { grid-template-columns: minmax(0, 1fr); row-gap: var(--space-2); padding: var(--space-3) 0 var(--space-3) 32px; }
+  .p-chronicle-ev::before { left: 7px; top: calc(var(--space-3) + 12px); }
+  .p-chronicle-ev .p-chronicle-photo, .p-chronicle-ev .p-chronicle-ev__text { grid-column: 1 !important; grid-row: auto !important; text-align: left !important; }
+  .p-chronicle-photo, .is-right .p-chronicle-photo { transform: none; padding: 6px 6px 20px; }
+  .p-chronicle-ev__year { font-size: 2.4rem; }
+}
+
+/* 圖文方塊 */
+.p-chronicle-modal .c-article__figure img { max-height: 60vh; width: auto; margin-inline: auto; }
+.p-chronicle-modal__nav { display: flex; align-items: center; gap: var(--space-2); margin-top: var(--space-3); padding-top: var(--space-2); border-top: 1px solid var(--c-line); }
+.p-chronicle-modal__nav .c-btn { min-width: 48px; font-size: 1.3rem; }
+
+@media (prefers-reduced-motion: reduce) { .p-chronicle-photo, .p-chronicle-rail__fill { transition: none; } }
+
+/* 照片收小、靠向中線，整頁不要太長 */
+@media (min-width: 768px) {
+  .p-chronicle-ev { column-gap: 80px; padding: var(--space-2) 0; }
+  .p-chronicle-photo { max-width: 400px; }
+  .p-chronicle-ev.is-left .p-chronicle-photo { justify-self: end; }
+  .p-chronicle-ev.is-right .p-chronicle-photo { justify-self: start; }
+  .p-chronicle-ev + .p-chronicle-ev { margin-top: -24px; }
+}

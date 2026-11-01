@@ -1,0 +1,457 @@
+[
+  {
+    "id": "c1928",
+    "year": 1928,
+    "date": "1928-06-09",
+    "title": {
+      "zh": "（示意）本院成立，蔡元培任首任院長",
+      "en": "(Demo) Academia Sinica founded; Cai Yuanpei as first president"
+    },
+    "body": {
+      "zh": "<p>本院成立，蔡元培任首任院長。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Academia Sinica founded; Cai Yuanpei as first president.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch1_01_caiyuanpei_appointment.jpg",
+        "alt": {
+          "zh": "蔡元培就任院長的歷史文件",
+          "en": "Historical document of Cai Yuanpei's appointment"
+        },
+        "width": 400,
+        "height": 365
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1935",
+    "year": 1935,
+    "date": "1935",
+    "title": {
+      "zh": "（示意）南京總辦事處",
+      "en": "(Demo) Headquarters in Nanjing"
+    },
+    "body": {
+      "zh": "<p>南京總辦事處。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Headquarters in Nanjing.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch1_02_hq_building_nanjing1935.jpg",
+        "alt": {
+          "zh": "南京時期的總辦事處建築",
+          "en": "The headquarters building in Nanjing"
+        },
+        "width": 400,
+        "height": 399
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1948",
+    "year": 1948,
+    "date": "1948",
+    "title": {
+      "zh": "（示意）第一屆院士選出",
+      "en": "(Demo) First academicians elected"
+    },
+    "body": {
+      "zh": "<p>第一屆院士選出。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>First academicians elected.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch4_01_academicians_1948.jpg",
+        "alt": {
+          "zh": "1948 年院士合影",
+          "en": "Academicians in 1948"
+        },
+        "width": 400,
+        "height": 323
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1949",
+    "year": 1949,
+    "date": "1949",
+    "title": {
+      "zh": "（示意）文物與圖書暫存楊梅",
+      "en": "(Demo) Collections stored in Yangmei"
+    },
+    "body": {
+      "zh": "<p>文物與圖書暫存楊梅。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Collections stored in Yangmei.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch1_03_yangmei_warehouse.jpg",
+        "alt": {
+          "zh": "楊梅倉庫外觀",
+          "en": "The Yangmei warehouse"
+        },
+        "width": 400,
+        "height": 343
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1949b",
+    "year": 1949,
+    "date": "1949",
+    "title": {
+      "zh": "（示意）在楊梅倉庫整理文物",
+      "en": "(Demo) Sorting collections in Yangmei"
+    },
+    "body": {
+      "zh": "<p>在楊梅倉庫整理文物。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Sorting collections in Yangmei.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch1_04_yangmei_working.jpg",
+        "alt": {
+          "zh": "研究人員在倉庫整理資料",
+          "en": "Researchers sorting materials in the warehouse"
+        },
+        "width": 400,
+        "height": 282
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1954",
+    "year": 1954,
+    "date": "1954",
+    "title": {
+      "zh": "（示意）南港庫房落成",
+      "en": "(Demo) Nangang storehouse completed"
+    },
+    "body": {
+      "zh": "<p>南港庫房落成。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Nangang storehouse completed.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch2_01_yls_warehouse_1954.jpg",
+        "alt": {
+          "zh": "1954 年南港的庫房",
+          "en": "The Nangang storehouse in 1954"
+        },
+        "width": 400,
+        "height": 297
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1955",
+    "year": 1955,
+    "date": "1955",
+    "title": {
+      "zh": "（示意）院區第一部交通車",
+      "en": "(Demo) The first campus bus"
+    },
+    "body": {
+      "zh": "<p>院區第一部交通車。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>The first campus bus.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch2_03_first_bus_1955.jpg",
+        "alt": {
+          "zh": "1955 年的交通車",
+          "en": "The campus bus in 1955"
+        },
+        "width": 400,
+        "height": 399
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1956",
+    "year": 1956,
+    "date": "1950s",
+    "title": {
+      "zh": "（示意）南港院區大門",
+      "en": "(Demo) The Nangang campus gate"
+    },
+    "body": {
+      "zh": "<p>南港院區大門。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>The Nangang campus gate.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch2_02_first_gate_1950s.jpg",
+        "alt": {
+          "zh": "1950 年代的院區大門",
+          "en": "The campus gate in the 1950s"
+        },
+        "width": 389,
+        "height": 400
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1957",
+    "year": 1957,
+    "date": "1957",
+    "title": {
+      "zh": "（示意）院士會議",
+      "en": "(Demo) Academicians' meeting"
+    },
+    "body": {
+      "zh": "<p>院士會議。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Academicians' meeting.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch4_02_academicians_1957.jpg",
+        "alt": {
+          "zh": "1957 年院士合影",
+          "en": "Academicians in 1957"
+        },
+        "width": 400,
+        "height": 305
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1961",
+    "year": 1961,
+    "date": "1961",
+    "title": {
+      "zh": "（示意）院區全景",
+      "en": "(Demo) Campus panorama"
+    },
+    "body": {
+      "zh": "<p>院區全景。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Campus panorama.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch2_04_campus_view_1961.jpg",
+        "alt": {
+          "zh": "1961 年院區全景",
+          "en": "The campus in 1961"
+        },
+        "width": 400,
+        "height": 364
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1968",
+    "year": 1968,
+    "date": "1968",
+    "title": {
+      "zh": "（示意）院區大門拓寬",
+      "en": "(Demo) Main gate widened"
+    },
+    "body": {
+      "zh": "<p>院區大門拓寬。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Main gate widened.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch5_01_gate_widened_1968.jpg",
+        "alt": {
+          "zh": "1968 年拓寬後的大門",
+          "en": "The widened gate in 1968"
+        },
+        "width": 400,
+        "height": 289
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1972",
+    "year": 1972,
+    "date": "1972",
+    "title": {
+      "zh": "（示意）數學館落成",
+      "en": "(Demo) Mathematics building completed"
+    },
+    "body": {
+      "zh": "<p>數學館落成。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Mathematics building completed.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_01_math_building_1972.jpg",
+        "alt": {
+          "zh": "1972 年落成的數學館",
+          "en": "The mathematics building in 1972"
+        },
+        "width": 400,
+        "height": 285
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1983",
+    "year": 1983,
+    "date": "1983",
+    "title": {
+      "zh": "（示意）化學館落成",
+      "en": "(Demo) Chemistry building completed"
+    },
+    "body": {
+      "zh": "<p>化學館落成。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Chemistry building completed.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_02_chem_building_1983.jpg",
+        "alt": {
+          "zh": "1983 年的化學館",
+          "en": "The chemistry building in 1983"
+        },
+        "width": 400,
+        "height": 321
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1984",
+    "year": 1984,
+    "date": "1984",
+    "title": {
+      "zh": "（示意）物理館落成",
+      "en": "(Demo) Physics building completed"
+    },
+    "body": {
+      "zh": "<p>物理館落成。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Physics building completed.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_03_physics_building_1984.jpg",
+        "alt": {
+          "zh": "1984 年的物理館",
+          "en": "The physics building in 1984"
+        },
+        "width": 400,
+        "height": 284
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c1994",
+    "year": 1994,
+    "date": "1994",
+    "title": {
+      "zh": "（示意）院長交接（1994）",
+      "en": "(Demo) Presidential handover (1994)"
+    },
+    "body": {
+      "zh": "<p>院長交接（1994）。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Presidential handover (1994).</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_04_leeyuant_handover_1994.jpg",
+        "alt": {
+          "zh": "1994 年院長交接典禮",
+          "en": "The 1994 handover ceremony"
+        },
+        "width": 400,
+        "height": 282
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c2006",
+    "year": 2006,
+    "date": "2006",
+    "title": {
+      "zh": "（示意）院長交接（2006）",
+      "en": "(Demo) Presidential handover (2006)"
+    },
+    "body": {
+      "zh": "<p>院長交接（2006）。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Presidential handover (2006).</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_05_wong_handover_2006.jpg",
+        "alt": {
+          "zh": "2006 年院長交接典禮",
+          "en": "The 2006 handover ceremony"
+        },
+        "width": 400,
+        "height": 266
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c2016",
+    "year": 2016,
+    "date": "2016",
+    "title": {
+      "zh": "（示意）院長交接（2016）",
+      "en": "(Demo) Presidential handover (2016)"
+    },
+    "body": {
+      "zh": "<p>院長交接（2016）。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Presidential handover (2016).</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [
+      {
+        "src": "assets/img/history/ch6_06_liao_handover_2016.jpg",
+        "alt": {
+          "zh": "2016 年院長交接典禮",
+          "en": "The 2016 handover ceremony"
+        },
+        "width": 400,
+        "height": 267
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "c2026",
+    "year": 2026,
+    "date": "2026",
+    "title": {
+      "zh": "（示意）院長交接（2026）",
+      "en": "(Demo) Presidential handover (2026)"
+    },
+    "body": {
+      "zh": "<p>院長交接（2026）。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>Presidential handover (2026).</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [],
+    "tags": []
+  },
+  {
+    "id": "c2028",
+    "year": 2028,
+    "date": "2028-06-09",
+    "title": {
+      "zh": "（示意）百年院慶",
+      "en": "(Demo) The Centennial"
+    },
+    "body": {
+      "zh": "<p>百年院慶。</p><p>（示意說明，年份與內容依院史照片檔名整理，正式內容以院史資料為準。）</p>",
+      "en": "<p>The Centennial.</p><p>(Placeholder text based on the archive photo; to be confirmed with official records.)</p>"
+    },
+    "images": [],
+    "tags": []
+  }
+]
