@@ -96,6 +96,7 @@ function render() {
   results.replaceChildren();
   if (!shown.length) { results.append(el("p", { class: "c-empty", text: t("no_results") })); return; }
   if (view === "grid") {
+    results.append(el("h2", { class: "u-visually-hidden", text: t("list_events") }));   // 標題層級：h1 → h2 → 海報 h3
     const wall = el("ul", { class: "p-events-wall", role: "list" });
     shown.forEach((it, i) => {
       wall.append(el("li", { class: "p-events-item" }, [

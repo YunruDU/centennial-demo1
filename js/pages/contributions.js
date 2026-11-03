@@ -37,6 +37,6 @@ const bar = filterBar({
       : el("p", { class: "c-empty", text: t("no_results") }));
   },
 });
-box.append(bar.element, results);
+box.append(bar.element, el("h2", { class: "u-visually-hidden", text: t("list_contrib") }), results);   // 標題層級：h1 → h2 → 卡片 h3
 bar.run();
 reveal();

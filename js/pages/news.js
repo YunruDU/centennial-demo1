@@ -36,5 +36,5 @@ const bar = filterBar({
   fields: [{ type: "search", key: "q", label: t("keyword") }],
   onChange: st => { list = news.filter(it => matchText(st.q, it.title, it.summary, it.tags)); page = 1; bar.setCount(list.length); render(false); },
 });
-box.append(bar.element, results);
+box.append(bar.element, el("h2", { class: "u-visually-hidden", text: t("list_news") }), results);   // 標題層級：h1 → h2 → 卡片 h3
 bar.run();

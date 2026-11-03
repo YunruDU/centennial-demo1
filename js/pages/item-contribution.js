@@ -43,6 +43,7 @@ export function contributionPage(item, items) {
   const body = el("div", { class: "c-article__body" });
   const fb = fallbackLang(item.body); if (fb) body.lang = htmlLang(fb);
   body.append(sanitize(pick(item.body)));
+  body.querySelectorAll("h3").forEach(h => { const h2 = document.createElement("h2"); h2.append(...h.childNodes); h.replaceWith(h2); });   // 緊接在 h1 之後，用 h2
   body.querySelectorAll('a[target="_blank"]').forEach(externalLink);
   main.append(body);
 

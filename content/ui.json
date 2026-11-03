@@ -634,5 +634,17 @@
   "no_shop": {
     "zh": "本站不提供線上交易，請至販售地點購買。",
     "en": "No online sales; please buy at the listed locations."
+  },
+  "list_contrib": {
+    "zh": "貢獻列表",
+    "en": "All contributions"
+  },
+  "list_news": {
+    "zh": "消息列表",
+    "en": "All news"
+  },
+  "list_events": {
+    "zh": "所有活動",
+    "en": "All events"
   }
 }

@@ -57,6 +57,6 @@
 .p-item-contrib__pager a { display: flex; flex-direction: column; gap: 4px; padding: 14px 0; color: var(--c-ink); text-decoration: none; }
 .p-item-contrib__pager a[rel="next"] { text-align: right; }
 .p-item-contrib__pager a:hover span:last-child { text-decoration: underline; text-decoration-color: var(--c-accent); }
-.p-item-contrib__main .c-article__body h3 { display: flex; align-items: center; gap: 10px; margin: var(--space-3) 0 6px; font-size: 1.25rem; }
-.p-item-contrib__main .c-article__body h3:first-child { margin-top: 0; }
-.p-item-contrib__main .c-article__body h3::before { content: ""; width: 18px; height: 2px; background: var(--div); }
+.p-item-contrib__main .c-article__body h2 { display: flex; align-items: center; gap: 10px; margin: var(--space-3) 0 6px; font-size: 1.25rem; }
+.p-item-contrib__main .c-article__body h2:first-child { margin-top: 0; }
+.p-item-contrib__main .c-article__body h2::before { content: ""; width: 18px; height: 2px; background: var(--div); }
