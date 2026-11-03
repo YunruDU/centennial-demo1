@@ -61,3 +61,4 @@ main:focus { outline: none; }
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
   .js-reveal { opacity: 1; transform: none; }
 }
+.c-static-h1 { max-width: var(--container, 1200px); margin: var(--space-5) auto; padding-inline: var(--gutter); }

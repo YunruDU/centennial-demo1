@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>DEMO</title>
+  <title>百年院區｜中央研究院百年院慶（概念示意）</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <script>/* 已選定 C 沉浸夜色；?style=a|b 仍可對照（見 css/themes.css） */var s="c";try{var q=new URLSearchParams(location.search).get("style");if(/^[abc]$/.test(q))s=q}catch(e){}document.documentElement.dataset.style=s;</script>
   <link rel="stylesheet" href="css/tokens.css">
@@ -15,8 +15,13 @@
 </head>
 <body data-page="campus">
   <div data-shell="header"></div>
-  <main id="main" tabindex="-1" class="p-campus-page"></main>
-  <div data-shell="footer"></div>
+  <main id="main" tabindex="-1" class="p-campus-page">
+    <h1 class="c-static-h1">百年院區</h1>
+  </main>
+  <div data-shell="footer">
+    <!-- 原始碼預放的網站導覽：讓不執行 JavaScript 的檢測工具（Freego）找得到其他頁面；載入後換成正式頁尾 -->
+    <nav aria-label="網站導覽"><ul><li><a href="index.html">首頁</a></li><li><a href="events.html">百年院慶系列活動</a></li><li><a href="chronicle.html">百年大事記</a></li><li><a href="contributions.html">百大貢獻</a></li><li><a href="news.html">最新消息</a></li><li><a href="centennial.html">百年中研</a></li><li><a href="campus.html">百年院區</a></li><li><a href="links.html">相關連結</a></li><li><a href="gifts.html">百年禮品</a></li></ul></nav>
+  </div>
   <script type="module" src="js/pages/campus.js"></script>
 </body>
 </html>

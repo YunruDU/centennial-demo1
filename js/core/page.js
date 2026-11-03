@@ -11,6 +11,8 @@ import { renderStyleSwitch } from "./style.js";
 
 export async function boot(page, { title } = {}) {
   const main = document.getElementById("main");
+  // HTML 原始碼裡預放的 h1（給不執行 JavaScript 的無障礙檢測工具看）；各頁會畫自己的 h1，先移除免得重複
+  if (main) main.querySelectorAll(".c-static-h1").forEach(h => h.remove());
   try {
     await initUI();
     const site = await renderShell(page);
